@@ -1,0 +1,21 @@
+I"a<p>Hér ætlum við að fjalla aðeins um óvissureikninga.</p>
+
+<p>Mælistærð er táknuð með \(A \pm \Delta A\). Stærðin \(A\) táknar besta matið okkar á einhverri eðlisfræðilegri mælingu.</p>
+
+<p>Fyrir samlagningu og frádrátt höfum við að:</p>
+
+\[(A \pm \Delta A) + (B \pm \Delta B) = A + B \pm \left( \Delta + \Delta B \right)\]
+
+\[(A \pm \Delta A) - (B \pm \Delta B) = A - B \pm \left( \Delta + \Delta B \right)\]
+
+<p>Fyrir margföldun og deilingu höfum við síðan að:</p>
+
+\[(A \pm \Delta A) (B \pm \Delta B) = AB\left( 1  \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} \right) \right)\]
+
+\[\frac{A \pm \Delta A}{B \pm \Delta B} = \frac{A}{B}\left( 1 \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} \right) \right)\]
+
+<p>En þetta má auðvitað alhæfa fyrir eins margar stærðir og við viljum þannig að við höfum:</p>
+
+\[\frac{\left(A \pm \Delta A\right)\left( B \pm \Delta B \right)}{\left(C \pm \Delta C\right)\left( D \pm \Delta D \right)} = \frac{AB}{CD}\left( 1 \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} + \frac{\Delta C}{C} + \frac{\Delta D}{D} \right) \right)\]
+
+:ET

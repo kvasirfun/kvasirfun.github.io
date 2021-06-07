@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-07T20:35:45+00:00</updated><id>/feed.xml</id><title type="html">Kvasir</title><subtitle>Vefsíða fyrir eðlisfræði</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/06/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-07T15:01:08+00:00</published><updated>2021-06-07T15:01:08+00:00</updated><id>/jekyll/update/2021/06/07/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/06/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-07T22:14:21+00:00</updated><id>/feed.xml</id><title type="html">Kvasir</title><subtitle>Vefsíða fyrir eðlisfræði</subtitle><entry><title type="html">Óvissureikningar</title><link href="/2021/06/07/ovissur.html" rel="alternate" type="text/html" title="Óvissureikningar" /><published>2021-06-07T21:01:08+00:00</published><updated>2021-06-07T21:01:08+00:00</updated><id>/2021/06/07/ovissur</id><content type="html" xml:base="/2021/06/07/ovissur.html">&lt;p&gt;Hér ætlum við að fjalla aðeins um óvissureikninga.&lt;/p&gt;
+
+&lt;p&gt;Mælistærð er táknuð með \(A \pm \Delta A\). Stærðin \(A\) táknar besta matið okkar á einhverri eðlisfræðilegri mælingu.&lt;/p&gt;
+
+&lt;p&gt;Fyrir samlagningu og frádrátt höfum við að:&lt;/p&gt;
+
+\[(A \pm \Delta A) + (B \pm \Delta B) = A + B \pm \left( \Delta + \Delta B \right)\]
+
+\[(A \pm \Delta A) - (B \pm \Delta B) = A - B \pm \left( \Delta + \Delta B \right)\]
+
+&lt;p&gt;Fyrir margföldun og deilingu höfum við síðan að:&lt;/p&gt;
+
+\[(A \pm \Delta A) (B \pm \Delta B) = AB\left( 1  \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} \right) \right)\]
+
+\[\frac{A \pm \Delta A}{B \pm \Delta B} = \frac{A}{B}\left( 1 \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} \right) \right)\]
+
+&lt;p&gt;En þetta má auðvitað alhæfa fyrir eins margar stærðir og við viljum þannig að við höfum:&lt;/p&gt;
+
+\[\frac{\left(A \pm \Delta A\right)\left( B \pm \Delta B \right)}{\left(C \pm \Delta C\right)\left( D \pm \Delta D \right)} = \frac{AB}{CD}\left( 1 \pm \left( \frac{\Delta A}{A} + \frac{\Delta B}{B} + \frac{\Delta C}{C} + \frac{\Delta D}{D} \right) \right)\]
+
+&lt;p&gt;Reyndar er almenna óvissureglan fyrir fall af mælistærð gefin með:&lt;/p&gt;
+
+\[f(A \pm \Delta A) = f(A) \pm f'(A)\Delta A\]
+
+&lt;p&gt;Til dæmis höfum við fyrir hornaföllin að:&lt;/p&gt;
+
+\[\cos(\theta \pm \Delta \theta) = \cos(\theta) \pm \sin(\theta)\Delta \theta\]
+
+&lt;p&gt;og&lt;/p&gt;
+
+\[\sin(\theta \pm \Delta \theta) = \sin(\theta) \pm \cos(\theta)\Delta \theta\]
+
+&lt;p&gt;Við getum líka þannig séð að t.d.&lt;/p&gt;
+
+\[(x \pm \Delta x)^\frac{5}{2} = x^{5/2} \pm \frac{5}{2}x^{\frac{3}{2}}\Delta x\]</content><author><name></name></author><summary type="html">Hér ætlum við að fjalla aðeins um óvissureikninga.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/06/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-07T15:01:08+00:00</published><updated>2021-06-07T15:01:08+00:00</updated><id>/jekyll/update/2021/06/07/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/06/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
