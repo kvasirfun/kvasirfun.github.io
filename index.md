@@ -18,10 +18,10 @@ Phone: +354 845-6226
 ## Latest Posts
 
 <ul>
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br/>
-      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
     </li>
   {% endfor %}
 </ul>
