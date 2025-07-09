@@ -7,6 +7,8 @@ pagination:
 permalink: /
 ---
 
+![Matthias Harksen](/assets/img/iphone/IMG_3294.jpg){: width="300" .right .rounded-10 .shadow }
+
 I am a PhD student in theoretical physics at the University of Iceland, working on quantum gravity, holography, and black hole thermodynamics. My thesis, supervised by [Watse Sybesma](https://sites.google.com/view/personalsitewatsesybesma/home), focuses on quantum corrections to the thermodynamics of near-extremal non-Lorentzian black holes.
 
 Email: matthias.harksen@gmail.com  
