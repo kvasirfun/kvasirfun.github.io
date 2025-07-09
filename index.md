@@ -15,6 +15,19 @@ Phone: +354 845-6226
 
 ---
 
+## Latest Posts
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br/>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
 ## Education
 
 - PhD in High Energy Physics, University of Iceland (2022–2026)  
