@@ -2,6 +2,8 @@
 layout: page
 title: Matthias Harksen
 subtitle: PhD student in High Energy Physics, University of Iceland
+pagination:
+  enabled: true
 permalink: /
 ---
 
