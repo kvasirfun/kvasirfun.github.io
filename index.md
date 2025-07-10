@@ -9,7 +9,7 @@ permalink: /
 
 ---
 
-## Latest Posts
+## Latest Post
 
 <ul>
   {% for post in site.posts %}
