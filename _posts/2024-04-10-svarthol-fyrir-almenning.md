@@ -40,8 +40,8 @@ Meginþráðurinn var lengri og ítarlegri útgáfa af Vísindaslamms-fyrirlestr
   ![](/assets/img/Svarthol_fyrirlestur.jpg)
 
 - Glærurnar má nálgast hér:  
-  [PDF-útgáfa](/assets/files/Svarthol_fyrirlestur.pdf)  
-  [PowerPoint](/assets/files/Svarthol_fyrirlestur.pptx)
+  [PDF-útgáfa](/assets/files/svarthol.pdf)  
+  [PowerPoint](/assets/files/svarthol.pptx)
 
 ---
 
@@ -56,7 +56,7 @@ Meginþráðurinn var lengri og ítarlegri útgáfa af Vísindaslamms-fyrirlestr
 - [Varmafræði svarthola](/assets/files/varmafraedi-svarthola.pdf) eftir Helga Frey Rúnarsson  
 
 Báðar þessar greinar birtust í vefriti Raust:  
-[https://raust.is/skjalasafn](https://raust.is/skjalasafn)
+[https://raust.is/skjalasafn](https://raust.is)
 
 Að lokum mæli ég með þessu fræðandi myndbandi með Leonard Susskind um svarthol og skammtafræði:
 
