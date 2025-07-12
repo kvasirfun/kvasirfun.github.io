@@ -5,7 +5,7 @@ author: mbh
 date: 2023-07-08 11:33:00 +0800
 categories: [Teaching]
 tags: [Teaching]
-pin: true
+pin: false
 math: true
 image:
   path: /assets/img/hradasia.jpeg
