@@ -12,7 +12,7 @@ image:
   alt: Ég hélt páskafyrirlestur um Svarthol fyrir almenning í Veröld í apríl 2024. Setið var í hverju sæti fyrirlestrasalsins (ca. 100 sæti) og létu sumir sér það nægja að standa.  
 ---
 
-![Frá fyrirlestrinum í Veröld](/assets/img/svartholf2.jpg){: width="480" .w-50 .left}
+![Frá fyrirlestrinum í Veröld](/assets/img/svartholf2.JPG){: width="480" .w-50 .left}
 
 Fyrirlesturinn var hluti af fyrirlestraröð fyrir almenning sem Háskóli Íslands stóð að í samstarfi við Stjarnvísindafélag Íslands og Stjörnuskoðunarfélag Seltjarnarness (SÍSS). Þar fjallaði ég um það hvernig hugmyndir manna um svarthol hafa þróast í gegnum árin. Hvernig almenna afstæðiskenningin spáir fyrir um tilvist þeirra. Hvaða fjölmörgu sönnunargögn við höfum í dag.
 
@@ -22,7 +22,7 @@ Efniskveikjan kom úr eigin æsku. Ég var í grunnskóla þegar ég heyrði að
 
 Meginþráðurinn var lengri og ítarlegri útgáfa af Vísindaslamms-fyrirlestrinum mínum um svarthol. Fyrirlesturinn var sérstaklega stílaður á forvitna grunnskólanemendur. Í raun hefði ég helst viljað fara með hann beint inn í grunnskólana.
 
-![Svarthol á skjánum](/assets/img/svartholf3.jpg){: width="480" .w-50 .right}
+![Svarthol á skjánum](/assets/img/svartholf3.JPG){: width="480" .w-50 .right}
 
 Áhuginn var mikill og aðsóknin fór fram úr væntingum. Öll sæti í fyrirlestrasalnum fylltust og margir stóðu allan tímann.
 
