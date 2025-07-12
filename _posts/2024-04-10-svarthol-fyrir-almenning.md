@@ -48,14 +48,15 @@ Meginþráðurinn var lengri og ítarlegri útgáfa af Vísindaslamms-fyrirlestr
 ### Tengt efni
 
 Þessi fyrirlestur varð meðal annars kveikjan að svarinu mínu við spurningunni *„Er hægt að búa til svarthol á tilraunastofu?“* á Vísindavefnum:  
-[visindavefur.is/svar.php?id=86694](https://www.visindavefur.is/svar.php?id=86694)
+[https://www.visindavefur.is/svar.php?id=86694](https://www.visindavefur.is/svar.php?id=86694)
 
 Ég mæli einnig með eftirfarandi tveimur greinum fyrir áhugasama:
 
 - [Svarthol og skammtafræði](/assets/files/svarthol-og-skammtafraedi.pdf) eftir Lárus Thorlacius  
 - [Varmafræði svarthola](/assets/files/varmafraedi-svarthola.pdf) eftir Helga Frey Rúnarsson  
 
-Báðar þessar greinar birtust í vefriti Raust: [http://raust.is/skjalasafn](http://raust.is/skjalasafn)
+Báðar þessar greinar birtust í vefriti Raust:  
+[https://raust.is/skjalasafn](https://raust.is/skjalasafn)
 
 Að lokum mæli ég með þessu fræðandi myndbandi með Leonard Susskind um svarthol og skammtafræði:
 
