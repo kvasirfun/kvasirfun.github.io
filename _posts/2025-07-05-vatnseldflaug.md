@@ -15,3 +15,9 @@ image:
 
 Ég hélt nýlega námskeið fyrir háskóla unga fólksins sem fjallaði um vatnseldflaugar. 
 Hér má sjá nokkrar myndir og myndbönd frá því að við vorum að skjóta upp á Bíldudal:
+
+
+
+
+
+Eðlisfræðin sem að þetta byggir á var síðan dæmi á úrslitakeppninni í eðlsisfræði 2025, sjá má dæmið hér (ásamt lausnum) assets/files/vatnseldflaug.pdf. 
