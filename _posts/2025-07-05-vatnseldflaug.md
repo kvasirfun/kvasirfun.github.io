@@ -13,11 +13,15 @@ image:
 ![Desktop View](/assets/img/huf/huf2.jpg){: width="972" height="589" }
 ![Desktop View](/assets/img/huf/huf3.jpg){: width="972" height="589" }
 
-Ég hélt nýlega námskeið fyrir háskóla unga fólksins sem fjallaði um vatnseldflaugar. 
-Hér má sjá nokkrar myndir og myndbönd frá því að við vorum að skjóta upp á Bíldudal:
+Ég hélt nýlega námskeið fyrir Háskóla unga fólksins sem fjallaði um vatnseldflaugar.  
+Hér má sjá nokkrar myndir og myndband frá því að við vorum að skjóta upp á Bíldudal:
 
+{% include embed/video.html
+  src="/assets/img/bildudalur.mp4"
+  title="Skotæfing á Bíldudal"
+  poster="/assets/img/huf/huf1.jpg"
+  types="mp4"
+%}
 
-
-
-
-Eðlisfræðin sem að þetta byggir á var síðan dæmi á úrslitakeppninni í eðlsisfræði 2025, sjá má dæmið hér (ásamt lausnum) assets/files/vatnseldflaug.pdf. 
+Eðlisfræðin sem þetta byggir á var svo dæmi í úrslitakeppninni í eðlisfræði 2025.  
+Sjá má dæmið (ásamt lausnum) [hér](/assets/files/vatnseldflaug.pdf).
