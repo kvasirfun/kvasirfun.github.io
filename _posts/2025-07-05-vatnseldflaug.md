@@ -16,12 +16,7 @@ image:
 Ég hélt nýlega námskeið fyrir Háskóla unga fólksins sem fjallaði um vatnseldflaugar.  
 Hér má sjá nokkrar myndir og myndband frá því að við vorum að skjóta upp á Bíldudal:
 
-{% include embed/video.html
-  src="/assets/img/bildudalur.mp4"
-  title="Skotæfing á Bíldudal"
-  poster="/assets/img/huf/huf1.jpg"
-  types="mp4"
-%}
+{% include embed/youtube.html id="H0J3gGnGQqc" %}
 
 Eðlisfræðin sem þetta byggir á var svo dæmi í úrslitakeppninni í eðlisfræði 2025.  
 Sjá má dæmið (ásamt lausnum) [hér](/assets/files/vatnseldflaug.pdf).
