@@ -17,4 +17,3 @@ image:
 {% include embed/youtube.html id="CqHJTW9ZE1s" %}
 
 
-
