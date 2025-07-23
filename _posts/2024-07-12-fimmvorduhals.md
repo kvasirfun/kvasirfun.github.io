@@ -8,7 +8,7 @@ tags: [Hike]
 pin: false
 math: true
 image:
-  path: /assets/img/fimmvorduhals.jpg
+  path: /assets/img/fimmvorduhals3.jpeg
   alt: Hér á eftir að setja aðra mynd...
 ---
 

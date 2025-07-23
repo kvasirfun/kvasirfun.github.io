@@ -5,7 +5,7 @@ author: mbh
 date: 2024-08-12 11:33:00 +0800
 categories: [Outreach]
 tags: [Outreach]
-pin: false
+pin: true
 math: true
 image:
   path: /assets/img/einstein-eddington.jpg
