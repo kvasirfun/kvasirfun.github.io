@@ -24,15 +24,7 @@ image:
 </iframe>
 
 
-<div style="position: relative; width: 100%; height: 430px; overflow: hidden; border-radius: 8px;">
-  <iframe 
-    src="https://cdn.embedly.com/widgets/media.html?src=https://www.relive.com/view/vPOpK2GE4Ev/widget?r=embed-site&url=https://www.relive.com/view/vPOpK2GE4Ev?r=embed-site&image=https://www.relive.com/view/vPOpK2GE4Ev/png?x-ref=embed-site&key=f1631a41cb254ca5b035dc5747a5bd75&type=text/html&schema=relive"
-    frameborder="0"
-    scrolling="no"
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 450px; margin-bottom: -20px;">
-  </iframe>
-</div>
+<div class="embedly-responsive" style="position: relative;padding-bottom: 78.2227%;height: 0;overflow: hidden;"><iframe class="embedly-embed" frameborder="0" scrolling="no" allowfullscreen src="https://cdn.embedly.com/widgets/media.html?src=https://www.relive.com/view/vPOpK2GE4Ev/widget?r=embed-site&url=https://www.relive.com/view/vPOpK2GE4Ev?r=embed-site&image=https://www.relive.com/view/vPOpK2GE4Ev/png?x-ref=embed-site&key=f1631a41cb254ca5b035dc5747a5bd75&type=text/html&schema=relive" width="1024" height="801" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe></div>
 
 <p style="margin-top: 1rem;">
   <a href="/assets/gpx/viknaslodir.gpx" download>Sækja GPX-skrá (Viknaslóðir)</a>
