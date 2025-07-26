@@ -14,7 +14,7 @@ image:
 
 Það er þetta fína walkumentary líka sem að Edda setti saman:
 
-{% include embed/youtube.html id="CqHJTW9ZE1s" %}
+{% include embed/youtube.html id="k8NFdtWKFj4" %}
 
 <iframe 
   src="https://ridewithgps.com/embeds?type=route&id=51854409&metricUnits=true&sampleGraph=true" 

@@ -20,9 +20,23 @@ image:
 
 Sjá einnig: https://www.mathpages.com/rr/s6-03/6-03.htm
 
+Svo er auðvitað David Tong búinn að gera þetta best https://www.damtp.cam.ac.uk/user/tong/gr/gr.pdf#sec1.3.5
+
+og upprunalegu greinina eftir Dyson, Eddington og Davidson [eddington-grein.pdf](/assets/files/eddington-grein.pdf) sem sýnir meðal annars þetta graf: 
+
+![Desktop View](/assets/img/eddington-graf.png){: width="972" height="589" }
+_Graf úr grein Eddington af tilfærslunni sem fall af fjarlægð frá sólinni sem sýnir samræmi við kenningu Einsteins frekar heldur en brotalínuna sem táknar kenningu Newtons._
+
+
 ## Tvær Newtonskar útleiðslur á ljóssveigju
 
 Það er engin sérstaða í því að ljós sveigi í kringum sólina. Reyndar spáir Newtonska aflfræðin einnig fyrir að ljós muni sveigja í kringum sólina. Hinsvegar munar faktor tveimur á kenningunum sem var það sem að Eddington tilraunin skar úr um til að greina hvort kenningin væri nákvæmari í þessu atriði.
+
+![Desktop View](/assets/img/solar-bending.png){: width="972" height="589" }
+_Ljóssveigja í kringum massamikinn hlut. Athugandi á jörðinni sér stjörnuna færast í sólmyrkva._
+
+![Desktop View](/assets/img/deflection-weinberg.png){: width="972" height="589" }
+_Mynd eftir Weinberg_
 
 ### Fyrri Newtonska útleiðslan
 
@@ -69,7 +83,7 @@ $$ \psi_{\text{Tungl}} = \frac{2 G M_{\text{T}}}{c^2 R_{\text{T}}} = 0{,}000015 
 
 ### Seinni Newtonska útleiðslan 
 
-Hin útleiðslan er byggð á [0508030.pdf](/assets/files/0508030.pdf). Fyrir ögn í sígildu miðlægu þyngdarmætti, $V(r) = -\frac{GMm}{r}$, þá er einfaldast að vinna í pólhnitum $(r,\theta)$. Það eru tvær varðveittar stærðir í þessu tilviki, annars vegar heildarorka agnarinnar, sem er þá gefin með
+Hin útleiðslan er byggð á [0508030.pdf](/assets/files/0508030.pdf) og [kampen.pdf](/assets/files/kampen.pdf). Fyrir ögn í sígildu miðlægu þyngdarmætti, $V(r) = -\frac{GMm}{r}$, þá er einfaldast að vinna í pólhnitum $(r,\theta)$. Það eru tvær varðveittar stærðir í þessu tilviki, annars vegar heildarorka agnarinnar, sem er þá gefin með
 
 $$E = \frac{1}{2}m(\dot{r}^2 + r^2 \dot{\theta}^2) - V(r).$$
 
