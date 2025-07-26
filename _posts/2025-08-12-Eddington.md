@@ -22,13 +22,16 @@ Sjá einnig: https://www.mathpages.com/rr/s6-03/6-03.htm
 
 ## Tvær Newtonskar útleiðslur á ljóssveigju
 
-## Fyrri útleiðslan
+Það er engin sérstaða í því að ljós sveigi í kringum sólina. Reyndar spáir Newtonska aflfræðin einnig fyrir að ljós muni sveigja í kringum sólina. Hinsvegar munar faktor tveimur á kenningunum sem var það sem að Eddington tilraunin skar úr um til að greina hvort kenningin væri nákvæmari í þessu atriði.
+
+### Fyrri Newtonska útleiðslan
+
 
 Fyrsta útleiðslan byggir á handwavy útleiðslu eftir Stenger [newtonian-deflection.pdf](/assets/files/newtonian-deflection.pdf) en því meira sem að maður rýnir í hana því fleiri vandamál koma í ljós við hana.
 
 
-![Ljóssveigja ljóst þema](/assets/img/svg/ljossveigja.svg){: .light .w-100 .mx-auto .d-block }
-![Ljóssveigja dökkt þema](/assets/img/svg/ljossveigja.svg){: .dark .w-100 .mx-auto .d-block style="filter: invert(1) hue-rotate(180deg);" }
+![Ljóssveigja ljóst þema](/assets/img/svg/ljossveigja.svg){: .light  .mx-auto .d-block }
+![Ljóssveigja dökkt þema](/assets/img/svg/ljossveigja.svg){: .dark  .mx-auto .d-block style="filter: invert(1) hue-rotate(180deg);" }
 
 Lítum á ljóseind með orku $E = hf$ sem ferðast með hraða $c$ meðfram $x$-ás. Ljóseindin hefur þá virkan massa $m = \frac{E}{c^2}$ Látum massa $M \geq \frac{hf}{c^2}$ vera staðsetann í $(0,b)$ þar sem að $b$ er svokölluð kennilengd árekstrarins (e. *impact parameter*). Eini krafturinn sem að verkar á ljóseindina í þessu ferli er þyngdarkrafturinn. Við athugum að í punkti $(x,y)$ þá er þyngdarkrafturinn sem að verkar á ögnina með massa $m$ gefinn með:
 
@@ -58,7 +61,41 @@ $$ \psi_{\text{N}} \approx \frac{\Delta p_y}{p} = \frac{2 G M}{c^2 R} = 4{,}21 \
 
 þ.e.a.s. rúmlega ein bogasekúnda. Þetta reynist vera helmingurinn af spágildinu samkvæmt almennu afstæðiskenningunni. Eddington tilraunin reynir því að skera úr um hvort að gildið sé nær $\psi_{\text{N}}$ eða $\psi_{\text{GR}}$.
 
+Það er auðvelt að bæta við mati á því hversu stór áhrif tunglið hefur á niðurstöðuna. En þá fæst að
 
+$$ \psi_{\text{Tungl}} = \frac{2 G M_{\text{T}}}{c^2 R_{\text{T}}} = 0{,}000015 \psi_{N} $$
+
+þar sem að $M_T$ og $R_T$ eru massi og geisli tunglsins. Þetta sýnir að við getum hunsað áhrif tunglsins á ljóssveigjuna í Eddington tilrauninni.
+
+### Seinni Newtonska útleiðslan 
+
+Hin útleiðslan er byggð á [0508030.pdf](/assets/files/0508030.pdf). Fyrir ögn í sígildu miðlægu þyngdarmætti, $V(r) = -\frac{GMm}{r}$, þá er einfaldast að vinna í pólhnitum $(r,\theta)$. Það eru tvær varðveittar stærðir í þessu tilviki, annars vegar heildarorka agnarinnar, sem er þá gefin með
+
+$$E = \frac{1}{2}m(\dot{r}^2 + r^2 \dot{\theta}^2) - V(r).$$
+
+þar sem að $\dot{r} = \frac{dr}{dt}$ og $\dot{\theta} = \frac{d\theta}{dt}$. Hin varðveitta stærðin er hverfiþungi agnarinnar (þar sem að krafturinn sem að verkar á ögnina liggur alltaf í geislalæga stefnu) sem er þá gefinn með
+
+$$ L = mr^2 \dot{\theta}.$$
+
+Við umritum nú orkuvarðveisluna með eftirfarandi hætti: við losum okkur við $\dot{\theta} = \frac{L}{mr^2}$ og við notum keðjuregluna $\frac{dr}{dt} = \frac{dr}{d\theta} \frac{d\theta}{dt} = \frac{dr}{d\theta}\dot{\theta}$, saman gefur þetta eftir smá algebru að
+
+$$ E = \frac{L^2}{2mr^4}\left( \left(\frac{dr}{d\theta}\right)^2 + r^2 \right) + V(r)\,, $$
+
+En þessa jöfnu má leysa fyrir $\frac{dr}{d\theta}$ þannig að við fáum
+
+$$ \frac{dr}{d\theta} = \frac{r^2}{L}\sqrt{2m\bigg(E + \frac{GM m}{r}\bigg) - \frac{L^2}{r^2}}\,. $$
+
+En þetta er fyrsta stigs afleiðujafna sem hefur þekkta lausn
+
+$$ r(\theta) = \frac{\ell}{1 - \epsilon \cos(\theta)}\,.  $$
+
+Þar sem við skilgreindum kennistærðirnar
+
+$$ \ell = \frac{L^2}{GMm^2}\,, \hspace{0.5cm} \epsilon = \sqrt{1 + \frac{2 E L^2}{G^2 M^2 m^3}} \,. $$
+
+Hér er $\ell$ hálfur þverbrennistrengur (e. *semilatus rectum*) og $\epsilon$ miðvik (e. *eccentricity*) fyrir keilusniðið.
+
+Nú er leikur einn að ákvarða hornið sem að ögn með upphafshraða $v_0$ og massa $m$ myndar við það að nálgast sólina með kennilengd $b$. Hér fáum við þá að 
 
 ## Gamalt
 
