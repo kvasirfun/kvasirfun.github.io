@@ -22,6 +22,8 @@ Sjá einnig: https://www.mathpages.com/rr/s6-03/6-03.htm
 
 Svo er auðvitað David Tong búinn að gera þetta best https://www.damtp.cam.ac.uk/user/tong/gr/gr.pdf#sec1.3.5
 
+minnast líka á John Earman, Clark Glymour í https://www.jstor.org/stable/27757471?seq=1
+
 og upprunalegu greinina eftir Dyson, Eddington og Davidson [eddington-grein.pdf](/assets/files/eddington-grein.pdf) sem sýnir meðal annars þetta graf: 
 
 ![Desktop View](/assets/img/eddington-graf.png){: width="972" height="589" }
@@ -37,6 +39,11 @@ _Ljóssveigja í kringum massamikinn hlut. Athugandi á jörðinni sér stjörnu
 
 ![Desktop View](/assets/img/deflection-weinberg.png){: width="972" height="589" }
 _Mynd eftir Weinberg_
+
+![Desktop View](/assets/img/deflection.png){: width="972" height="589" }
+_Myndin sýnir hvernig stjörnur fyrir sólmyrkvan (blátt) færast út í geislalæga stefnu og mynda rauðu dílana._
+
+Horfa á bíómyndina: https://www.imdb.com/title/tt0995036/
 
 ### Fyrri Newtonska útleiðslan
 
