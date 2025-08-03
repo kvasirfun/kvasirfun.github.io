@@ -92,7 +92,7 @@ $$ \psi_{\text{Tungl}} = \frac{2 G M_{\text{T}}}{c^2 R_{\text{T}}} = 0{,}000015 
 
 Hin útleiðslan er byggð á [0508030.pdf](/assets/files/0508030.pdf) og [kampen.pdf](/assets/files/kampen.pdf). Fyrir ögn í sígildu miðlægu þyngdarmætti, $V(r) = -\frac{GMm}{r}$, þá er einfaldast að vinna í pólhnitum $(r,\theta)$. Það eru tvær varðveittar stærðir í þessu tilviki, annars vegar heildarorka agnarinnar, sem er þá gefin með
 
-$$E = \frac{1}{2}m(\dot{r}^2 + r^2 \dot{\theta}^2) - V(r).$$
+$$E = \frac{1}{2}m(\dot{r}^2 + r^2 \dot{\theta}^2) + V(r).$$
 
 þar sem að $\dot{r} = \frac{dr}{dt}$ og $\dot{\theta} = \frac{d\theta}{dt}$. Hin varðveitta stærðin er hverfiþungi agnarinnar (þar sem að krafturinn sem að verkar á ögnina liggur alltaf í geislalæga stefnu) sem er þá gefinn með
 
@@ -190,7 +190,38 @@ Hér er $\ell$ hálfur þverbrennistrengur (e. *semilatus rectum*) og $\epsilon$
 Nú er leikur einn að ákvarða hornið sem að ögn með upphafshraða $v_0$ og massa $m$ myndar við það að nálgast sólina með kennilengd $b$. Hér fáum við þá að 
 
 
-## Almenna afstæðiskenningin 1915
+## Forspárgildi almennu afstæðiskenningarinnar
+
+Nú skulum við leiða út hvert gildið á horninu er samkvæmt almennu afsæðiskenningunni. Þyngdarsviðinu í kringum sólina er þar lýst með Schwarzschild-metruninni, en hún er gefin með
+
+$$ ds^2 = -(1-\frac{r_s}{r})c^2dt^2 + \frac{dr^2}{(1-\frac{r_s}{r})} + r^2 d\theta^2 + r^2 \sin^2\theta \, d\phi^2\,,$$
+
+Þar sem að við kynntum Schwarzschild-geislann $r_s = \frac{2GM}{c^2}$. Við munum einskorða okkur við $\theta = \frac{\pi}{2}$ með $\dot{\theta} = 0$. Með því að skoða hreyfijöfnur fyrir metrunina fæst að það eru tvær varðveittar stærðir, annars vegar
+
+$$ E = (1-\frac{r_s}{r})c^2 \dot{t} \, \hspace{0.5cm} L = r^2 \dot{\phi}\,. $$
+
+En þær samsvara orku og hverfiþunga eindarinnar. Fyrir ljóseind höfum við síðan að hreyfingin uppfyllir:
+
+$$ -(1-\frac{r_s}{r})c^2\dot{t}^2 + \frac{\dot{r}^2}{(1-\frac{r_s}{r})} + r^2 \dot{\phi}^2 = 0 \,, $$
+
+En með smá umritun og með því að nota varðveittu stærðirnar til að losna við $\dot{t}$ og $\dot{\phi}$ þá fáum við að
+
+$$ \frac{1}{2}\dot{r}^2 + V_{\text{eff}}(r) = \frac{E^2}{2c^2}\,, $$
+
+þar sem
+
+$$ V_{\text{eff}}(r) = \frac{L^2}{2r^2}(1-\frac{r_s}{r})\,.$$
+
+Notum svo innsetninguna $u = \frac{1}{r}$ og keðjuregluna þannig að $\frac{dr}{d\phi} = \frac{du}{d\phi} \frac{dr}{du} = - \frac{1}{u^2}\frac{du}{d\phi}$ en það gefur okkur því að
+
+$$ \left( \frac{du}{d\phi} \right)^2 + u^2(1-r_s u) = \frac{E^2}{c^2 L^2}\,. $$
+
+Þessa afleiðujöfnu er ekki hægt að leysa á lokuðu formi. Við munum því Taylor-liða fyrir $r \gg r_s$ með öðrum orðum fyrir $ u r_s \ll 1$. En það þýðir að við fáum:
+
+$$ \begin{align*} \phi &= \phi_0 + \int \frac{du}{\sqrt{\frac{E^2}{c^2L^2}- u^2(1-r_su)}} \\ &= \phi_0 + \frac{c L}{E}\int \left( 1 - \frac{c^2L^2}{E^2r_s^2}(ur_s)^2(1-ur_s)  \right)^{-1/2}du \end{align*} $$
+
+
+
 
 
 ## Eddington tilraunin 1919
