@@ -43,6 +43,11 @@ _Mynd eftir Weinberg_
 ![Desktop View](/assets/img/deflection.png){: width="972" height="589" }
 _Myndin sýnir hvernig stjörnur fyrir sólmyrkvan (blátt) færast út í geislalæga stefnu og mynda rauðu dílana._
 
+
+![Desktop View](/assets/img/latrabjarg.png){: width="972" height="589" }
+_Fréttatími sem sýnir kortið._
+
+
 Horfa á bíómyndina: https://www.imdb.com/title/tt0995036/
 
 ### Fyrri Newtonska útleiðslan
