@@ -106,7 +106,8 @@ avatar: /assets/img/avatar.png
 social_preview_image: /assets/img/social_preview.png # string, local or CORS resources
 
 favicon:
-  rel_path: /assets/img/favicons/favicon.ico
+  small: /assets/img/favicons/favicon.ico
+  svg: /assets/img/favicons/favicon.svg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
