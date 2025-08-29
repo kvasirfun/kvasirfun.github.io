@@ -18,25 +18,85 @@ image:
 
 ## Einfalt líkan fyrir hitastigi jarðarinnar
 
-Það er til einfalt líkan fyrir hitastigi jarðarinnar. Byrjum á því að rifja upp Stefan-Boltzmann lögmálið sem segir að útgeislun frá fullkomnum svarthlut er gefið með
+Byrjum á því að rifja upp Stefan-Boltzmann lögmálið sem segir að útgeislun frá fullkomnum svarthlut er gefið með
 
-$$ P = \sigma A T^4 $$
+$$
+P = \sigma A T^4
+$$
 
-þar sem $\sigma$ er fasti sem nefnist Stefan-Boltzmann fastinn, $A$ er yfirborðsflatarmál hlutarins (oft yfirborðsflatarmál kúlu $4 \pi r^2$) og $T$ er hitastig hlutarins í Kelvin-gráðum. Með sama móti má segja að jörðin geislar frá sér þar eð hún er sjálf svarthlutur. Þetta kerfi þar sem að sólargeislar sólarinnar lenda á jörðinni til að hita hana upp sem sinn eigin svarthlutur nær því varmajafnvægi sem ákvarðar hitastig jarðarinnar. Við höfum því að varmajafnvægi næst þegar
+þar sem  
+- $\sigma$ er fasti sem nefnist **Stefan–Boltzmann fastinn**,  
+- $A$ er yfirborðsflatarmál hlutarins (oft yfirborðsflatarmál kúlu: $4 \pi r^2$),  
+- $T$ er hitastig hlutarins í Kelvin‑gráðum.
 
-$$ \sigma 4 \pi R_{S}^2 T_{S}^4 \frac{\pi R_{J}^2}{4 \pi D^2} = \sigma 4 \pi R_{J}^2 T_{J}^4$$
+---
 
-þar sem að $D$ táknar stjarnfræðieininguna. Með því að leysa fyrir hitastig jarðarinnar fæst þá að
+Með sama móti má segja að **jörðin geislar frá sér** þar eð hún er sjálf svarthlutur. Þetta kerfi, þar sem sólargeislar lenda á jörðinni og hita hana upp sem sinn eigin svarthlut, nær **varmajafnvægi** sem ákvarðar hitastig jarðar.
 
-$$T_{J} = T_S \sqrt{\frac{R_S}{2 D}} = 278 K = 5,1 \degree C$$
+Við höfum því að jafnvægi næst þegar
 
-Þar sem að við notuðum að $T_S = 5778 K$, $R_S = 6.95 * 10^8 m$ og $D = 1,5 \cdot 10^11 m$.
+$$
+\sigma 4 \pi R_S^2 T_S^4 \cdot \frac{\pi R_J^2}{4 \pi D^2}
+=
+\sigma 4 \pi R_J^2 T_J^4
+$$
 
-Þetta er semsagt hitastig jarðarinnar einungis vegna varmajafnvægis við sólina. Þetta er áður en að við byrjum að bæta við öllum öðrum umhverfisþáttum í líkanið (sem geta bæðið aukið eða minnkað þetta gildi). Þar sem að lofthjúpur jarðar spilar stærst hlutverk. Aðrir þættir eru, endurkast sólarljóss af yfirborði jarðar, innri varmageislun jarðarinnar til dæmis í kjarna hennar, möndulhalli jarðar hefur áhrif á staðbundið hitastig en ekki hnattrænt hitastig.
+þar sem  
+- $R_S$ er radíus sólar,  
+- $T_S$ er hitastig sólar,  
+- $R_J$ er radíus jarðar,  
+- $T_J$ er hitastig jarðar,  
+- $D$ er fjarlægðin milli sólar og jarðar (stjarnfræðieiningin, AU).
 
-Það er mikilvægt á þessum tímapunkti að benda á að jafnan hér að ofan gefur mjög gott mat á meðalhitastigi á hnöttum sem hafa engan lofthjúp. Fyrir Mars gefur jafnan hér að ofan meðalhitastig á yfirborði um það bil -52 gráður celsíus sem er ekki í fjarri lagi frá -63 gráðu meðalhitastigi. Fyrir tunglið þurfum við að taka með inn í reikninginn bæði útgeislun frá jörðinni og frá sólinni en þá fæst eftir stuttan útreikning að hitastig tunglsins er
+---
 
-$$ T_T =   $$
+Með því að leysa fyrir hitastig jarðar fæst:
+
+$$
+T_J = T_S \sqrt{\frac{R_S}{2 D}} = 278\,\text{K} = 5{,}1^\circ \text{C}
+$$
+
+Þar sem við notuðum:
+
+- $T_S = 5778\,\text{K}$  
+- $R_S = 6{,}95 \times 10^8\,\text{m}$  
+- $D = 1{,}5 \times 10^{11}\,\text{m}$
+
+---
+
+Þetta er sem sagt **hitastig jarðar einungis vegna varmajafnvægis við sólina**. Þetta er áður en við bætum við öllum öðrum **umhverfisþáttum** í líkanið (sem geta bæði aukið eða minnkað þetta gildi).
+
+Stærsti þátturinn sem bætist við síðar er **lofthjúpur jarðar**, en aðrir þættir eru t.d.:
+
+- Endurkast sólarljóss af yfirborði jarðar  
+- Innri varmageislun jarðar (t.d. frá kjarna)  
+- Möndulhalli jarðar hefur áhrif á **staðbundið** en ekki **hnattrænt** hitastig
+
+---
+
+Það er mikilvægt á þessum tímapunkti að benda á að jafnan hér að ofan gefur **mjög gott mat á meðalhitastigi** hnatta sem **hafa engan lofthjúp**. Þess vegna kallast það stundum loftsteinalíkanið.
+
+- Fyrir **Mars** gefur jafnan hér að ofan meðalhitastig á yfirborði um það bil **–52°C**, sem er ekki fjarri raunverulegu meðalhitastigi (–63°C).
+- Fyrir **tunglið** þurfum við að taka með inn í reikninginn bæði **útgeislun frá jörðinni** og **frá sólinni**.
+
+Ef við bætum við stuðli $\alpha$ sem metur endurskilshlutfall hnattarins (þ.e.a.s. hversu stórt hlutfall af sólargeisluninni hnötturinn endurkastar frá sér) þá fæst enn betra mat sem er þá gefið með.
+
+$$ T_J = \alpha $$
+
+
+ Við sýnum síðan töflu sem að metur þessi hitastig fyrir plánetur og tungl í sólkerfinu okkar með og án endurskinshlutfallsins $\alpha$.
+
+ table here
+
+Eftir stuttan útreikning fæst þá að hitastig tunglsins er:
+
+$$
+T_T = \ldots
+$$
+
+## Greinar sem mig langar að lesa
+
+https://arxiv.org/pdf/1802.02695
 
 
 ## Hvers vegna skiptir koltvísýringur máli?
