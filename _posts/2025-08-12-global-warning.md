@@ -18,6 +18,16 @@ image:
 
 ## Einfalt líkan fyrir hitastigi jarðarinnar
 
+Hér er ágætis youtube myndband sem fer yfir þetta:
+
+{% include embed/youtube.html id="gM3dLL6f0ms" %}
+
+Hér er ágætis skýringarmynd (eftir Sabine Hossenfelder) sem útskýrir ferlið sem við erum að fara að skoða:
+
+![Sabine mynd](assets/img/infographic-greenhouse.jpg)
+
+### Bare-rock líkanið eða smástirnislíkanið
+
 Byrjum á því að rifja upp Stefan-Boltzmann lögmálið sem segir að útgeislun frá fullkomnum svarthlut er gefið með
 
 $$
@@ -94,7 +104,42 @@ $$
 T_T = \ldots
 $$
 
+## loft-slagsmál?
+
+Það eru nokkrir punktar sem flestir ættu að sammælast um áður en að umræða um loftlagsmálin getur hafist.
+
+- Koltvísýringur er gróðurhúsalofttegund en það þýðir að aukinn styrkur koltvísýrings í andrúmsloftinu eykur hitastig jarðarinnar.
+
+- Meðalhitastig jarðarinnar hefur hlýnað frá tímabilinu sem kallast "litla ísöldin".
+
+- Mannkynið hefur breytt umhverfinu sínu t.d. með útblæstri, mannvirkjum og losun úrgangs í sjó.
+
+
+Ef einhver hafnar ofangreindum punktum þá er lítil ástæða til þess að halda umræðunni áfram. Það sem er hinsvegar til umræðu eru eftirfarandi punktar:
+
+- Mannfólk er **helsti** áhrifavaldur í hnattrænni hlýnun.
+
+- Hlýnun jarðar er slæm fyrir framtíðarhorfur mannkynsins.
+
+Þetta eru punktarnir sem eru til umræðu. Til að vísa í Richard Feynman: "I would rather have questions that can not be answered than answers that can not be questioned". Það er síðan heil umræða í kringum það hvort að seinni tveir punktarnir eru eitthvað sem að stjórnmálamenn hafa verið að advókera fyrir eða hvort að sérfræðingarnir sem að rannsaka hnattræna hlýnun myndu vera sammála síðustu tveimur punktunum. (Hér þarf að skoða greinar sem tala um viðhorf sérfræðinga á hnattræna hlýnun og hvort að þeir myndu segja að það væru marktækar sönnur fyrir seinni tveimur punktunum). 
+
+
+## Hverjar eru helstu gróðurhúsalofttegundirnar?
+
+- Vatnsgufa
+
+- Koltvísýringur
+
+- Metangas
+
+
 ## Greinar sem mig langar að lesa
+
+Hér er ágætis youtube myndband sem fer yfir þetta:
+
+{% include embed/youtube.html id="gM3dLL6f0ms" %}
+
+https://www.youtube.com/watch?v=gM3dLL6f0ms
 
 https://arxiv.org/pdf/1802.02695
 
