@@ -12,3 +12,6 @@ image:
   alt: Eðlisfræði fyrir framhaldsskóla.
 ---
 
+Hér bókin mín: Eðlisfræði fyrir Eðlisfræðideild sem ég samdi á meðan að ég kenndi við Menntaskólann í Reykjavík.
+
+- [Introductory physics textbook (in Icelandic)](/assets/files/edlisfraedi-bok.pdf)
