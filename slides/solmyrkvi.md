@@ -43,9 +43,16 @@ Note:
 
 ---
 
-## Sólmyrkvi 12. ágúst 2026 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## solmyrkvi2026.is<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/solmyrkvi2026.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
 
 ---
 
