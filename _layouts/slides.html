@@ -30,6 +30,7 @@
     <script>
       Reveal.initialize({
         hash: true,
+        autoPlayMedia: true, // leyfir bara media með data-autoplay
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3],
         mathjax3: {
           tex: {
@@ -39,6 +40,37 @@
           }
         }
       });
+    </script>
+
+    <script>
+      // Spila eða pása öll video á núverandi glæru
+      function toggleVideosOnCurrent() {
+        const slide = Reveal.getCurrentSlide();
+        if (!slide) return;
+        slide.querySelectorAll('video').forEach(v => {
+          if (v.paused) { v.play().catch(()=>{}); } else { v.pause(); }
+        });
+      }
+
+      // Pása media þegar skipt er af glæru
+      function pauseMediaIn(slide) {
+        if (!slide) return;
+        slide.querySelectorAll('video, audio').forEach(m => { try { m.pause(); } catch(_){} });
+      }
+      Reveal.on('slidechanged', e => pauseMediaIn(e.previousSlide));
+
+      // R400 mapping: Punktur (.) / B / F5 / MediaPlayPause → PLAY/PAUSE
+      window.addEventListener('keydown', (e) => {
+        const isPlayPause =
+          e.key === '.' || e.key === 'b' || e.key === 'B' ||
+          e.key === 'F5' || e.code === 'MediaPlayPause';
+
+        if (isPlayPause) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleVideosOnCurrent();
+        }
+      }, true);
     </script>
   </body>
 </html>
