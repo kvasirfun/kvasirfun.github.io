@@ -8,7 +8,7 @@ tags: [Conference]
 pin: false
 math: true
 image:
-  path: /assets/img/dijkgraaf.jpg
+  path: /assets/img/ar-skammtafraedinnar.jpg
   alt: Ár skammtafræðinnar.
 ---
 
