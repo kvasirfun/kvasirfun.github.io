@@ -14,6 +14,9 @@ image:
 
 ## Skammtafræðin
 
+{% include embed/youtube.html id='iMktAc7NMvw' %}
+
+
 Skammtafræðin fjallar um hið agnarsmáa, rafeindir, róteindir, nitfteindir og kvarka. En hvað þýðir orðið skammtur í þessu samhengi?
 
 Orðið skammtur vísar til þess að tilteknar eðlisfræðilegar stærðir eins og massi, orka og rafhleðsla koma í skömmtum, þ.e.a.s. að það sé til minnsti skammtur af þessum stærðum og að allar aðrar stærðir verða að vera heiltölumargfeldi af þeim.  
