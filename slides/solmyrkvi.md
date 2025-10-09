@@ -34,7 +34,7 @@ Note:
 
 ---
 
-## Hvað hafði landinn um sólmyrkvann 30. júní 1954 að segja?
+## Hvað hafði landinn um sólmyrkvann 30. júní 1954 að segja? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
   <div style="width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/solmyrkvi54a.jpg" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
@@ -43,19 +43,38 @@ Note:
 
 ---
 
-## Sól, Jörð og Tungl
+## Sólmyrkvi 12. ágúst 2026 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<video src="{{ '/assets/slides/solmyrkvi/video/SolJordinTunglid.mp4' | relative_url }}"
-       muted autoplay playsinline controls preload="metadata"
-       style="width:100%; max-height:70vh;"></video>
+
 
 ---
 
-## Af hverju er þá ekki almyrkvi í hverjum einasta mánuði?
+## Sól, Jörð og Tungl <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<video src="{{ '/assets/slides/solmyrkvi/video/SolJordTunglTiltV1.mp4' | relative_url }}"
-       muted autoplay playsinline controls preload="metadata"
-       style="width:100%; max-height:70vh;"></video>
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/SolJordinTunglid.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
+
+---
+
+## Af hverju er þá ekki almyrkvi í hverjum einasta mánuði? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/SolJordTunglTiltV1.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
 
 Note:
 1) Hringmyrkvi o.s.frv.
@@ -63,15 +82,21 @@ Note:
 
 ---
 
-## Hvað er sólmyrkvi?
+## Hvað er sólmyrkvi? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<video src="{{ '/assets/slides/solmyrkvi/video/UmbraPenumbra.mp4' | relative_url }}"
-       muted autoplay playsinline controls preload="metadata"
-       style="width:100%; max-height:70vh;"></video>
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/UmbraPenumbra.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
 
 ---
 
-## Hvenær verður síðasti sólmyrkinn?
+## Hvenær verður síðasti sólmyrkinn? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:68vh; margin-top:0.5rem; overflow:hidden;">
   <img src="{{ '/assets/slides/solmyrkvi/img/landskeppni24.png' | relative_url }}" class="fragment" data-fragment-index="1" style="display:block; margin:0 auto; max-height:22vh;">
@@ -85,7 +110,7 @@ Note:
 
 ---
 
-## Krossfeldi
+## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 $$
 \vec{v}_1 \times \vec{v}_2 =
