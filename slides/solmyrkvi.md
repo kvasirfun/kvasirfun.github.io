@@ -48,7 +48,7 @@ Note:
 <video
   data-autoplay
   class="vh70"
-  src="{{ '/assets/slides/solmyrkvi/video/solmyrkvi2026.mp4' | relative_url }}"
+  src="{{ '/assets/slides/solmyrkvi/video/solmyrkvi2026c.mp4' | relative_url }}"
   muted
   playsinline
   preload="metadata">
