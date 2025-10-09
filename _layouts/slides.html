@@ -30,7 +30,10 @@
     <script>
       Reveal.initialize({
         hash: true,
-        autoPlayMedia: true, // leyfir bara media með data-autoplay
+        autoPlayMedia: true,
+        progress: false,
+        slideNumber: 'c/t',
+        controls: false,
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3],
         mathjax3: {
           tex: {
