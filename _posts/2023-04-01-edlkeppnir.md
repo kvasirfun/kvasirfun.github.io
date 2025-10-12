@@ -17,14 +17,12 @@ image:
 Ég hef verið listjóri fyrir íslenska Ólympíuliðið í eðlisfræði frá árinu 2019. Núverandi stjórnarmeðlimir eru Viðar Ágústsson, Ingibjörg Haraldsdóttir, Matthias Harksen og Unnar Bjarni Arnalds.
 
 <style>
-  /* ljós hamur sjálfgefið */
   table { width: 100%; border-collapse: collapse; }
   th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
   th { background-color: #f4f4f4; }
   @media screen and (max-width: 600px) {
     table { display: block; overflow-x: auto; white-space: nowrap; }
   }
-  /* dökkur hamur með bæði kerfi og Chirpy rofa */
   @media (prefers-color-scheme: dark) {
     table { color: #e6e6e6; }
     th, td { border-color: rgba(255,255,255,0.18); }
@@ -51,18 +49,26 @@ image:
   {% for i in years %}
     {% assign year = i | plus: 2000 %}
     {% assign fn = i %}{% if i < 10 %}{% assign fn = "0" | append: i %}{% endif %}
-    {% assign file = "/assets/pdfs/forkeppnir/undankeppni" | append: fn | append: ".pdf" | relative_url %}
-    {% assign sol  = "/assets/pdfs/forkeppnir/Lausnir/undankeppni" | append: fn | append: "-lausn.pdf" | relative_url %}
-    <tr>
-      <td><a href="{{ file }}" target="_blank">Forkeppni {{ year }}</a></td>
-      <td>{% if i >= 19 %}<a href="{{ sol }}" target="_blank">Lausnir</a>{% else %}-{% endif %}</td>
-    </tr>
+
+    {% assign file = "/assets/pdfs/forkeppnir/undankeppni" | append: fn | append: ".pdf" %}
+    {% assign sol  = "/assets/pdfs/forkeppnir/Lausnir/undankeppni" | append: fn | append: "-lausn.pdf" %}
+
+    {% assign exam_exist = site.static_files | where: "path", file | first %}
+    {% if exam_exist %}
+      <tr>
+        <td><a href="{{ file | relative_url }}" target="_blank">Forkeppni {{ year }}</a></td>
+        <td>
+          {% assign sol_exist = site.static_files | where: "path", sol | first %}
+          {% if sol_exist %}<a href="{{ sol | relative_url }}" target="_blank">Lausnir</a>{% else %}–{% endif %}
+        </td>
+      </tr>
+    {% endif %}
   {% endfor %}
 </table>
 
 ## Lokakeppnin
 
-Efstu 16 keppendum í forkeppninni er boðið í fræðilega og verklega úrslitakeppni. Efstu keppendum verður síðan boðið í Ólympíulið Íslands í eðlisfræði það sumarið.
+Efstu sextán úr forkeppninni fara í fræðilega og verklega lokakeppni. Efstu þátttakendum er síðan boðið í Ólympíulið Íslands í eðlisfræði að sumri.
 
 <table>
   <tr>
@@ -74,12 +80,20 @@ Efstu 16 keppendum í forkeppninni er boðið í fræðilega og verklega úrslit
   {% for i in years %}
     {% assign year = i | plus: 2000 %}
     {% assign fn = i %}{% if i < 10 %}{% assign fn = "0" | append: i %}{% endif %}
-    {% assign file = "/assets/pdfs/lokakeppnir/fraedileg" | append: fn | append: ".pdf" | relative_url %}
-    {% assign sol  = "/assets/pdfs/lokakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" | relative_url %}
-    <tr>
-      <td><a href="{{ file }}" target="_blank">Lokakeppni {{ year }}</a></td>
-      <td>{% if i >= 16 %}<a href="{{ sol }}" target="_blank">Lausnir</a>{% else %}-{% endif %}</td>
-    </tr>
+
+    {% assign file = "/assets/pdfs/lokakeppnir/fraedileg" | append: fn | append: ".pdf" %}
+    {% assign sol  = "/assets/pdfs/lakakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" %}
+
+    {% assign exam_exist = site.static_files | where: "path", file | first %}
+    {% if exam_exist %}
+      <tr>
+        <td><a href="{{ file | relative_url }}" target="_blank">Lokakeppni {{ year }}</a></td>
+        <td>
+          {% assign sol_exist = site.static_files | where: "path", sol | first %}
+          {% if sol_exist %}<a href="{{ sol | relative_url }}" target="_blank">Lausnir</a>{% else %}–{% endif %}
+        </td>
+      </tr>
+    {% endif %}
   {% endfor %}
 </table>
 
@@ -108,13 +122,40 @@ Hér má sjá gamlar keppnir ásamt íslenskum þýðingum og lausnum.
 
   {% assign years = (17..25) | reverse %}
   {% for y in years %}
-    {% assign base = "/assets/pdfs/eupho/" | relative_url %}
-    {% assign sol  = "/assets/pdfs/eupho/lausnir/" | relative_url %}
+
+    {% assign t_is = "/assets/pdfs/eupho/eupho" | append: y | append: "-t-isl.pdf" %}
+    {% assign t_en = "/assets/pdfs/eupho/eupho" | append: y | append: "-t-eng.pdf" %}
+    {% assign e_is = "/assets/pdfs/eupho/eupho" | append: y | append: "-e-isl.pdf" %}
+    {% assign e_en = "/assets/pdfs/eupho/eupho" | append: y | append: "-e-eng.pdf" %}
+    {% assign s_t  = "/assets/pdfs/eupho/lausnir/eupho" | append: y | append: "-t-sol.pdf" %}
+    {% assign s_e  = "/assets/pdfs/eupho/lausnir/eupho" | append: y | append: "-e-sol.pdf" %}
+
     <tr>
       <td>20{{ y }}</td>
-      <td><a href="{{ base }}eupho{{ y }}-t-isl.pdf" target="_blank">[IS]</a> / <a href="{{ base }}eupho{{ y }}-t-eng.pdf" target="_blank">[EN]</a></td>
-      <td><a href="{{ base }}eupho{{ y }}-e-isl.pdf" target="_blank">[IS]</a> / <a href="{{ base }}eupho{{ y }}-e-eng.pdf" target="_blank">[EN]</a></td>
-      <td><a href="{{ sol }}eupho{{ y }}-t-sol.pdf" target="_blank">[Fræðilegt]</a> / <a href="{{ sol }}eupho{{ y }}-e-sol.pdf" target="_blank">[Verklegt]</a></td>
+
+      <td>
+        {% assign t_is_ok = site.static_files | where: "path", t_is | first %}
+        {% assign t_en_ok = site.static_files | where: "path", t_en | first %}
+        {% if t_is_ok %}<a href="{{ t_is | relative_url }}" target="_blank">[IS]</a>{% else %}[IS]{% endif %}
+        /
+        {% if t_en_ok %}<a href="{{ t_en | relative_url }}" target="_blank">[EN]</a>{% else %}[EN]{% endif %}
+      </td>
+
+      <td>
+        {% assign e_is_ok = site.static_files | where: "path", e_is | first %}
+        {% assign e_en_ok = site.static_files | where: "path", e_en | first %}
+        {% if e_is_ok %}<a href="{{ e_is | relative_url }}" target="_blank">[IS]</a>{% else %}[IS]{% endif %}
+        /
+        {% if e_en_ok %}<a href="{{ e_en | relative_url }}" target="_blank">[EN]</a>{% else %}[EN]{% endif %}
+      </td>
+
+      <td>
+        {% assign s_t_ok = site.static_files | where: "path", s_t | first %}
+        {% assign s_e_ok = site.static_files | where: "path", s_e | first %}
+        {% if s_t_ok %}<a href="{{ s_t | relative_url }}" target="_blank">[Fræðilegt]</a>{% else %}[Fræðilegt]{% endif %}
+        /
+        {% if s_e_ok %}<a href="{{ s_e | relative_url }}" target="_blank">[Verklegt]</a>{% else %}[Verklegt]{% endif %}
+      </td>
     </tr>
   {% endfor %}
 </table>
@@ -128,37 +169,41 @@ Fyrir verklega hlutana frá 2020 og 2021 bendum við á eftirfarandi forrit
     <th>MacOS</th>
     <th>Linux</th>
   </tr>
+
   <tr>
-    <td>E1 — Hidden Charge 2020</td>
+    <td>Eitt falin hleðsla 2020</td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E1-hidden-charge-WIN.exe' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E1-hidden-charge-OSX' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E1-hidden-charge-Linux' | relative_url }}" download>Download</a></td>
   </tr>
+
   <tr>
-    <td>E2 — Black Box 2020</td>
+    <td>Tveir svarti kassi 2020</td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E2-black-box-WIN.exe' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E2-black-box-OSX' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2020/E2-black-box-Linux' | relative_url }}" download>Download</a></td>
   </tr>
+
   <tr>
-    <td>E1 — Hidden Wire 2021</td>
+    <td>Eitt falin vír 2021</td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E1_hidden_wire_win.exe' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E1_hidden_wire_osx' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E1_hidden_wire_linux' | relative_url }}" download>Download</a></td>
   </tr>
+
   <tr>
-    <td>E2 — Hot Cylinder 2021</td>
+    <td>Tveir heitur sívalningur 2021</td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E2_hot_cylinder_win.exe' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E2_hot_cylinder_osx' | relative_url }}" download>Download</a></td>
     <td><a href="{{ '/assets/pdfs/eupho/exp-eupho2021/E2_hot_cylinder_linux' | relative_url }}" download>Download</a></td>
   </tr>
 </table>
 
-Forritin eru skipanalínuforrit og eru aðgengileg fyrir Linux, MacOS og Windows. Hafið samband ef þið náið ekki að keyra þau. Á Mac og Linux gæti þurft að nota **chmod +x skráarnafn**.
+Forritin eru skipanalínuforrit og aðgengileg fyrir Linux, MacOS og Windows. Hafið samband ef ykkur tekst ekki að keyra þau. Á Mac og Linux gæti þurft að nota **chmod +x skráarnafn**.
 
 ## Aðrar keppnir
 
-Það eru fleiri keppnir sem fólk getur tekið þátt í og gagnlegt er að skoða
+Það eru fleiri keppnir sem hægt er að taka þátt í og gagnlegt er að skoða
 
 - OPhO
 - APhO
