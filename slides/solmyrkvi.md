@@ -69,6 +69,20 @@ Note:
 
 ---
 
+## Kvartilaskipti Tunglsins <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/lunar-faces.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
+
 ## Af hverju er þá ekki almyrkvi í hverjum einasta mánuði? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
@@ -97,7 +111,6 @@ Note:
   playsinline
   preload="metadata">
 </video>
-
 
 ---
 
