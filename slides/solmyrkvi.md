@@ -121,7 +121,7 @@ $$
 \vec{v}_1 \times \vec{v}_2 =
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\\\
-\dfrac{\partial X}{\partial u} & \dfrac{\partial Y}{\partial u} & 0 \\\\
+\dfrac{\partial Z}{\partial u} & \dfrac{\partial Y}{\partial u} & 0 \\\\
 \dfrac{\partial X}{\partial v} & \dfrac{\partial Y}{\partial v} & 0
 \end{vmatrix}
 $$
