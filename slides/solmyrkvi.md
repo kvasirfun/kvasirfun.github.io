@@ -143,6 +143,19 @@ Note:
 
 ---
 
+## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/rutherford-story.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
 ## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 $$
