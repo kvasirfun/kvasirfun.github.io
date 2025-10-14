@@ -126,6 +126,21 @@ Note:
   <strong>Svar:</strong> Síðasti almyrkvinn verður eftir <strong>650 milljón ár</strong>.
 </p>
 
+
+---
+
+## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/CoulombAll.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
 ---
 
 ## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
