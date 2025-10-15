@@ -43,6 +43,19 @@ Note:
 
 ---
 
+## Þrjár gerðir af sólmyrkvum<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/3myrkvar.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
 ## FOMO: Fear Of Missing Out <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
