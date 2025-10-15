@@ -43,6 +43,29 @@ Note:
 
 ---
 
+## FOMO: Fear Of Missing Out <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+  <!-- Fyrsta myndin -->
+  <div style="width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/eclipse-trace2.jpeg" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
+
+  <!-- Röð mynda sem birtast sem fragments -->
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/eclipse_coolness.png" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/almyrkvaunnandi.png" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/hotel-patro.png" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/rokselja.png" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/lagaveg.png" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/vegavinna2.jpg" | relative_url }}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+</div>
+
+---
+
+
 ## solmyrkvi2026.is<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
