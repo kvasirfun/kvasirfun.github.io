@@ -192,6 +192,35 @@ Note:
 
 ---
 
+## Sveigja ljóss í sígildri eðlisfræði <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/GravScatter.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
+---
+
+## Hvernig mælir maður svona? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/deflection-telescope.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
+---
+
+
 ## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 $$
