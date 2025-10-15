@@ -129,7 +129,7 @@ Note:
 
 ---
 
-## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
   data-autoplay
@@ -139,7 +139,6 @@ Note:
   playsinline
   preload="metadata">
 </video>
-
 
 ---
 
@@ -153,6 +152,7 @@ Note:
   playsinline
   preload="metadata">
 </video>
+
 
 ---
 
