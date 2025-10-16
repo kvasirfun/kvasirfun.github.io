@@ -192,6 +192,21 @@ Note:
 
 ---
 
+
+## Þrjár leiðir til að staðfesta afstæðiskenninguna<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{{ '/assets/slides/solmyrkvi/video/three-tests.mp4' | relative_url }}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
+---
+
 ## Sveigja ljóss í sígildri eðlisfræði <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
@@ -219,6 +234,32 @@ Note:
 
 
 ---
+
+## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="display:flex; gap:2rem; align-items:stretch; justify-content:center; width:100%; max-height:72vh; margin-top:1rem;">
+
+  <!-- Flexner portrett -->
+  <figure style="flex:0 0 36%; display:flex; flex-direction:column; align-items:center;">
+    <img src="{{ '/assets/slides/solmyrkvi/img/flexner.jpeg' | relative_url }}"
+         alt="Abraham Flexner"
+         style="max-height:60vh; width:auto; object-fit:contain; display:block;" />
+    <figcaption style="margin-top:0.6rem; font-size:1rem; text-align:center;">
+      Abraham Flexner<br>stofnandi IAS Princeton
+    </figcaption>
+  </figure>
+
+  <!-- Dijkgraaf víð mynd -->
+  <img src="{{ '/assets/slides/solmyrkvi/img/dijkgraaf.jpg' | relative_url }}"
+       alt="Robbert Dijkgraaf"
+       style="flex:1 1 58%; max-height:60vh; max-width:100%; object-fit:contain; display:block;" />
+
+</div>
+
+---
+
+
+
 
 
 ## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
