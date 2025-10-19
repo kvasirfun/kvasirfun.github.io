@@ -26,7 +26,7 @@ Matthias Harksen <!-- .element: style="font-size:1.2rem; margin-top:1rem;" -->
 
 ## Námur Salómons konungs og Ævintýri Tinna <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/tintin.jpg' | relative_url }}{% raw %}"
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/tinni.jpg' | relative_url }}{% raw %}"
      alt="Tintin"
      style="max-height:78vh; max-width:90%; object-fit:contain; display:block; margin:0 auto;">
 
@@ -90,7 +90,7 @@ Note:
 
 ---
 
-## Sól, Jörð og Tungl <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## Hvernig virkar sólmyrkvi?<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
   data-autoplay
@@ -103,7 +103,7 @@ Note:
 
 ---
 
-## Kvartilaskipti Tunglsins <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## Hvernig tengist þetta kvartilaskiptum Tunglsins <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
   data-autoplay
@@ -146,19 +146,48 @@ Note:
 
 ---
 
-## Hvenær verður síðasti sólmyrkinn? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<div style="position:relative; width:100%; height:68vh; margin-top:0.5rem; overflow:hidden;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/landskeppni24.png' | relative_url }}{% raw %}" class="fragment" data-fragment-index="1" style="display:block; margin:0 auto; max-height:22vh;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/sidasti-solmyrkvi.png' | relative_url }}{% raw %}" class="fragment" data-fragment-index="2" style="position:absolute; top:0; left:50%; transform:translateX(-50%); max-height:48vh; max-width:90%;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/almyrkvi-spurn.png' | relative_url }}{% raw %}" class="fragment" data-fragment-index="3" style="display:block; position:absolute; bottom:10vh; left:50%; transform:translateX(-50%); max-height:18vh; max-width:80%;">
-</div>
-
-<p class="fragment" data-fragment-index="4" style="text-align:center; font-size:1.3rem; margin-top:-1rem;">
-  <strong>Svar:</strong> Síðasti almyrkvinn verður eftir <strong>650 milljón ár</strong>.
-</p>
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/time_cover_trim.jpg' | relative_url }}{% raw %}"
+     style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
 ---
+
+<section>
+<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+Dagblöð um niðurstöður 1919
+</h3>
+
+<div style="position:relative;width:100%;height:72vh;">
+
+<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}" alt="Vísir fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}" alt="Vísir grein" style="max-height:34vh;width:auto;object-fit:contain;">
+</div>
+
+<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}" alt="Morgunblaðið fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}" alt="Morgunblaðið grein" style="max-height:34vh;width:auto;object-fit:contain;">
+</div>
+
+<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}" alt="Alþýðublaðið fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}" alt="Alþýðublaðið grein" style="max-height:34vh;width:auto;object-fit:contain;">
+</div>
+
+</div>
+</section>
+
+
+---
+
+
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}{% raw %}"
+     alt="Eddington og Einstein í Cambridge 1930"
+     style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
+
+---
+
+
 
 ## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -185,6 +214,8 @@ Note:
 </video>
 
 ---
+
+
 
 ## Þrjár leiðir til að staðfesta afstæðiskenninguna<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -224,6 +255,33 @@ Note:
 </video>
 
 ---
+
+## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse1919.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
+## Hugsanleg Eddington tilraun 2026 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse2026.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
 
 ## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -302,14 +360,6 @@ Note:
 </div>
 
 Note: Every boy in the streets of Gottingen understands more about four dimensional geometry than Einstein.
-
----
-
-## Eddington tilraunin 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}{% raw %}"
-     alt="Eddington og Einstein í Cambridge 1930"
-     style="max-height:78vh; max-width:90%; object-fit:contain; display:block; margin:0 auto;">
 
 ---
 
