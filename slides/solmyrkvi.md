@@ -150,32 +150,43 @@ Note:
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/time_cover_trim.jpg' | relative_url }}{% raw %}"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
+
 ---
 
+
 <section>
-<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
-Dagblöð um niðurstöður 1919
-</h3>
+  <h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+    Íslensk dagblöð 1919
+  </h3>
 
-<div style="position:relative;width:100%;height:72vh;">
+  <!-- Felur upphafsblokk þegar fragment verður sýnilegt -->
+  <style>
+    section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
+  </style>
 
-<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}" alt="Vísir fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}" alt="Vísir grein" style="max-height:34vh;width:auto;object-fit:contain;">
-</div>
+  <div class="r-stack" style="position:relative; width:100%; height:72vh;">
 
-<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}" alt="Morgunblaðið fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}" alt="Morgunblaðið grein" style="max-height:34vh;width:auto;object-fit:contain;">
-</div>
+  <!-- SÝNIST STRAX, EKKI FRAGMENT -->
+  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
 
-<div class="fragment current-visible" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}" alt="Alþýðublaðið fyrirsögn" style="max-height:34vh;width:auto;object-fit:contain;">
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}" alt="Alþýðublaðið grein" style="max-height:34vh;width:auto;object-fit:contain;">
-</div>
+  <!-- Morgunblaðið, eitt í einu -->
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
 
-</div>
+  <!-- Alþýðublaðið -->
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
+
+  </div>
 </section>
+
 
 
 ---
@@ -185,8 +196,36 @@ Dagblöð um niðurstöður 1919
      alt="Eddington og Einstein í Cambridge 1930"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
+
 ---
 
+
+## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="display:flex; gap:2rem; align-items:stretch; justify-content:center; width:100%; max-height:72vh; margin-top:1rem;">
+  <figure style="flex:0 0 36%; display:flex; flex-direction:column; align-items:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/flexner.jpeg' | relative_url }}{% raw %}"
+         alt="Abraham Flexner"
+         style="max-height:60vh; width:auto; object-fit:contain; display:block;" />
+    <figcaption style="margin-top:0.6rem; font-size:1rem; text-align:center;">
+      Abraham Flexner<br>forstjóri IAS Princeton (1930-1939)
+    </figcaption>
+  </figure>
+
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dijkgraaf.jpg' | relative_url }}{% raw %}"
+       alt="Robbert Dijkgraaf"
+       style="flex:1 1 58%; max-height:60vh; max-width:100%; object-fit:contain; display:block;" />
+</div>
+
+<p style="position:absolute; left:65%; top:45%; color:black; font-size:1.5rem;">
+Robbert Dijkgraaf
+</p>
+
+<p style="position:absolute; left:31%; top:4%; color:white; font-size:1.5rem;">
+(The Usefulness of Useless Knowledge)
+</p>
+
+---
 
 
 ## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
@@ -282,25 +321,6 @@ Dagblöð um niðurstöður 1919
 
 ---
 
-
-## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<div style="display:flex; gap:2rem; align-items:stretch; justify-content:center; width:100%; max-height:72vh; margin-top:1rem;">
-  <figure style="flex:0 0 36%; display:flex; flex-direction:column; align-items:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/flexner.jpeg' | relative_url }}{% raw %}"
-         alt="Abraham Flexner"
-         style="max-height:60vh; width:auto; object-fit:contain; display:block;" />
-    <figcaption style="margin-top:0.6rem; font-size:1rem; text-align:center;">
-      Abraham Flexner<br>stofnandi IAS Princeton
-    </figcaption>
-  </figure>
-
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dijkgraaf.jpg' | relative_url }}{% raw %}"
-       alt="Robbert Dijkgraaf"
-       style="flex:1 1 58%; max-height:60vh; max-width:100%; object-fit:contain; display:block;" />
-</div>
-
----
 
 ## Eddington tilraun 2026<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
