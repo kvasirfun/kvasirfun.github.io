@@ -259,6 +259,40 @@ Note:
 ---
 
 
+## Eddington tilraun 2026<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+  <div style="width:90%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/email1.png" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat; margin-left:5%;"></div>
+  <div class="fragment" style="position:absolute; top:0; left:5%; width:90%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/email2.png" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+</div>
+
+---
+
+## Zurich stílabókin (1912)<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+  <div style="width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/ZurichNotebook2.jpeg" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat; margin-left:10%;"></div>
+
+  <div class="fragment" style="position:absolute; top:0; left:10%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/ZurichNotebook3.jpeg" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:0; left:10%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/ZurichNotebook4.jpeg" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+
+  <div class="fragment" style="position:absolute; top:0; left:10%; width:80%; height:58vh; background-image:url('{{ "/assets/slides/solmyrkvi/img/ZurichNotebook1.jpeg" | relative_url }}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+</div>
+
+Note: Every boy in the streets of Gottingen understands more about four-dimensional geometry than Einstein.
+
+---
+
+## Eddington tilraunin 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<img src="{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}"
+     alt="Eddington og Einstein í Cambridge 1930"
+     style="max-height:78vh; max-width:90%; object-fit:contain; display:block; margin:0 auto;">
+
+
+---
 
 
 
