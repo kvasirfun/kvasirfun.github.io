@@ -22,6 +22,8 @@ Matthias Harksen <!-- .element: style="font-size:1.2rem; margin-top:1rem;" -->
 
 Í Veröld húsi Vigdísar 23. október 2025 <!-- .element: style="font-size:1.2rem; margin-top:1rem;" -->
 
+harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0.8rem;" -->
+
 ---
 
 ## Námur Salómons konungs og Ævintýri Tinna <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
@@ -87,6 +89,39 @@ Note:
   playsinline
   preload="metadata">
 </video>
+
+---
+
+## Óður til Sævars Helga Bragasonar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+  <!-- 1: stjornu-saevar.jpg -->
+  <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/stjornu-saevar.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
+
+  <!-- 2: gjaldthrot.png -->
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gjaldthrot.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <!-- 3: si.png -->
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+
+  <!-- 4: gleraugu.jpg -->
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gleraugu.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+</div>
+
+<div class="fragment" style="
+  margin-top:0.8rem;
+  width:100%;
+  text-align:center;
+  font-size:1.0rem;
+  line-height:1.25;
+  background:rgba(0,0,0,0.55);
+  color:#fff;
+  padding:0.35rem 0.7rem;
+  border-radius:0.4rem;
+  box-shadow:0 4px 14px rgba(0,0,0,0.35);">
+  Tímahylki (Þjóðminjasafnið) · Mæling á jaðri almyrkvaslóðarinnar (Luca Quaglia) · UppHaf (Þykjó, Sigga og Ingibjörg)
+</div>
+
 
 ---
 
@@ -228,18 +263,6 @@ Robbert Dijkgraaf
 
 ---
 
-## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/CoulombAll.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
-
----
 
 ## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -247,6 +270,20 @@ Robbert Dijkgraaf
   data-autoplay
   class="vh70"
   src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/rutherford-story.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
+
+## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/CoulombAll.mp4' | relative_url }}{% raw %}"
   muted
   playsinline
   preload="metadata">
@@ -353,44 +390,8 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
 
 ---
 
-## Eddington tilraun 2026<!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## Takk fyrir áheyrnina
 
-<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
-  <div class="fragment fade-out"
-       data-fragment-index="1"
-       style="position:absolute; top:0; left:5%; width:90%; height:58vh;
-              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/sjonaukar.jpg" | relative_url }}{% raw %}');
-              background-size:contain; background-position:center; background-repeat:no-repeat;">
-  </div>
-
-  <div class="fragment"
-       data-fragment-index="1"
-       style="position:absolute; top:0; left:5%; width:90%; height:58vh;
-              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/email1.jpg" | relative_url }}{% raw %}');
-              background-size:contain; background-position:center; background-repeat:no-repeat;">
-  </div>
-
-  <div class="fragment"
-       data-fragment-index="2"
-       style="position:absolute; top:0; left:5%; width:90%; height:58vh;
-              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/email2.jpg" | relative_url }}{% raw %}');
-              background-size:contain; background-position:center; background-repeat:no-repeat;">
-  </div>
-</div>
-
----
-
-## Krossfeldi <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<!-- EIN BREYTING: fjarlægjum óþarfa raw toggl -->
-$$
-\vec{v}_1 \times \vec{v}_2 =
-\begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\\\
-\dfrac{\partial X}{\partial u} & \dfrac{\partial Y}{\partial u} & 0 \\\\
-\dfrac{\partial X}{\partial v} & \dfrac{\partial Y}{\partial v} & 0
-\end{vmatrix}
-$$
 
 {% endraw %}
 </textarea>
