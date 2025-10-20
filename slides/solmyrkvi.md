@@ -250,6 +250,27 @@ Robbert Dijkgraaf
 
 ---
 
+<div style="display:flex; align-items:center; justify-content:space-between; max-width:85%; margin:0 auto;">
+
+  <!-- Quote blokk -->
+  <blockquote style="flex:1; font-size:2.4rem; line-height:1.2; margin:0; text-align:left;">
+    “If I have been able to see further, it is by standing on the shoulders of giants.”
+  </blockquote>
+
+  <!-- Newton blokk til hægri -->
+  <div style="display:flex; flex-direction:column; align-items:center; margin-left:2rem;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/isaac-newton.jpeg' | relative_url }}{% raw %}"
+         alt="Isaac Newton"
+         style="height:12rem; width:auto; border-radius:0.2rem; margin-bottom:0.5rem;" />
+    <span style="font-size:1.4rem;">— Isaac Newton</span>
+  </div>
+
+</div>
+
+
+
+---
+
 ## Annus Mirabilis (1905) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
@@ -322,6 +343,28 @@ Robbert Dijkgraaf
 </div>
 
 Note: Every boy in the streets of Gottingen understands more about four dimensional geometry than Einstein.
+
+---
+
+<div style="display:flex; align-items:center; justify-content:space-between; max-width:80%; margin:0 auto;">
+
+  <!-- Quote blokk -->
+  <blockquote style="flex:1; font-size:2.4rem; line-height:1.2; margin:0; text-align:left;">
+    “Every boy in the streets of Göttingen understands more about four
+    dimensional geometry than Einstein. Yet, in spite of that, Einstein
+    did the work and not the mathematicians.”
+  </blockquote>
+
+  <!-- Hilbert blokk til hægri -->
+  <div style="display:flex; flex-direction:column; align-items:center; margin-left:2rem;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/david-hilbert.png' | relative_url }}{% raw %}"
+         alt="David Hilbert"
+         style="height:12rem; width:auto; border-radius:0.2rem; margin-bottom:0.5rem;" />
+    <span style="font-size:1.4rem;">— David Hilbert</span>
+  </div>
+
+</div>
+
 
 ---
 
