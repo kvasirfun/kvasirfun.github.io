@@ -387,19 +387,6 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
 
 ---
 
-## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse1919.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
-
----
-
 ## Endurminningar um jólaboð Chandrasekhars <!-- .element: style="font-size:2.2rem; text-transform:none !important;" -->
 
 <div style="display:flex; align-items:flex-start; justify-content:space-between; max-width:90%; margin:0 auto; gap:2rem;">
@@ -456,61 +443,83 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
 
 <section>
   <style>
-    .dialog-wrap { max-width: 88%; margin: 0 auto; margin-top: 1vh; }
-    .source-top { font-size:0.95rem; opacity:0.8; text-align:center; margin-bottom:0.6rem; }
-    .scrollbox { max-height: 72vh; overflow-y: auto; padding-right: 0.5rem; }
-    .bubble { display: inline-block; padding: 0.9rem 1.1rem; border-radius: 0.75rem; line-height: 1.35; font-size: 1.45rem; margin: 0.2rem 0 1.2rem 0; text-align: justify; }
-    .left-bubble  { background: rgba(255,255,255,0.10); }
-    .right-bubble { background: rgba(255,255,255,0.15); }
-    .row { display: flex; align-items: flex-start; gap: 1rem; }
-    .left  { justify-content: flex-start; }
-    .right { justify-content: flex-end; flex-direction: row-reverse; }
-    .speaker-img { height: 5.8rem; width: auto; border-radius: 0.3rem; margin-top: 0.4rem; }
+    .dialog-wrap {
+      max-width: 88%;
+      margin: 0 auto;
+      margin-top: 0;
+    }
+    .scrollbox {
+      max-height: 72vh;
+      overflow-y: auto;
+      padding-right: 0.5rem;
+    }
+    .bubble {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border-radius: 0.75rem;
+      line-height: 1.3;
+      font-size: 1.45rem;
+      margin: 0.2rem 0 1.2rem 0;
+      text-align: justify;
+    }
+    .left-bubble {
+      background: rgba(255,255,255,0.10);
+    }
+    .right-bubble {
+      background: rgba(255,255,255,0.15);
+    }
+    .row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .left {
+      justify-content: flex-start;
+    }
+    .right {
+      justify-content: flex-end;
+      flex-direction: row-reverse;
+    }
+    .speaker-img {
+      height: 5.8rem;
+      width: auto;
+      border-radius: 0.3rem;
+      margin-top: 0.4rem;
+    }
+    .source-footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+      margin-top: 1rem;
+    }
   </style>
 
   <div class="dialog-wrap">
-    <div class="source-top">
-      Úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976).
-    </div>
-
-  <div class="scrollbox">
+    <div class="scrollbox">
       <div class="row left fragment">
         <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}" alt="Maurice Amos" />
         <div class="bubble left-bubble">
-          “I do not see why Einstein is accorded a greater public acclaim than you.
-          After all, you invented the nuclear model of the atom; and that model provides
-          the basis for all of physical science today and it is even more universal in its
-          applications than Newton’s laws of gravitation. Whereas, granted that Einstein’s
-          theory is right — I cannot say otherwise in the presence of Eddington here —
-          Einstein’s predictions refer to such minute departures from the Newtonian theory
-          that I do not see what all the fuss is about.”
+          Ég skil ekki af hverju Einstein er frægari en þú, Rutherford. Þú bjóst til líkan af atóminu sem liggur til grundvallar nútímaeðlisfræði og hefur víðtækari hagnýtingar en þyngdarlögmál Einsteins — ef það er rétt yfirhöfuð. Ég get auðvitað ekki sagt annað í nærveru Eddington. En munurinn á kenningum Einsteins og Newtons er svo smávægilegur að ég skil ekki af hverju allir gera svona mikið úr þessu.
         </div>
       </div>
 
   <div class="row right fragment">
         <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}" alt="Ernest Rutherford" />
         <div class="bubble right-bubble">
-          “Eddington is responsible for Einstein’s fame. The war had just ended; and the complacency of the Victorian and the Edwardian times had been shattered.
-          The people felt that all their values and all their ideals had lost their bearings. Now, suddenly, they learnt
-          that an astronomical prediction by a German scientist had been confirmed by expeditions to Brazil and West Africa
-          and, indeed, prepared for already during the war, by British astronomers. Astronomy had always appealed to
-          public imagination; and an astronomical discovery, transcending worldly strife, struck a responsive cord.
-          The meeting of the Royal Society, at which the results of the British expeditions were reported, was headlined
-          in all the British papers; and the typhoon of publicity crossed the Atlantic. From that point on, the American
-          press played Einstein to the maximum.”
+          Það var Eddington sem skaut Einstein upp á stjörnuhimininn. Stríðinu var lokið og týnda kynslóðin leitaði að nýju leiðarljósi. Almenningur hafði alltaf hrifist af stjarnvísindum, og þegar kenningar hjá þýskum vísindamanni voru staðfestar af breskum stjarneðlisfræðingum, beint eftir stríð, var það kraftmikið tákn um að vísindi væru hafin yfir átök og pólitík. Eftir það var leikur einn fyrir bandaríska fjölmiðla að gera Einstein að stórstjörnu.
         </div>
       </div>
 
   <div class="row left fragment">
         <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}" alt="Arthur Eddington" />
         <div class="bubble left-bubble">
-          “Suppose the war had not come and Finlay-Freundlich had been able to observe the 1914 eclipse and had found a deflection
-          of 1.7 seconds of arc at a time when Einstein was predicting a deflection of only 0.83 seconds of arc. Imagine how tame
-          Einstein’s 1915 calculation of 1.7 seconds of arc would have seemed. He would have been belatedly changing the value after
-          the event, having first been shown to have been wrong and the deflection of light would have lost the tremendous impact
-          that it had as a prediction.”
+          Hugsið ykkur samt ef Finlay-Freundlich hefði tekist að mæla ljóssveigju í sólmyrkvanum 1914. Á þeim tímapunkti hafði Einstein gert villu í útreikningum sínum og spáð sömu sveigju og í kenningu Newtons. Þá hefði kenning Einsteins misst trúverðugleika sinn og sagan verið önnur.
         </div>
       </div>
+    </div>
+
+  <div class="source-footer">
+      Þýtt úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976)
     </div>
   </div>
 
@@ -520,13 +529,313 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
       if (box) box.scrollTop = 0;
     });
     Reveal.on('fragmentshown', function(ev){
-      const box = ev.fragment.closest('.scrollbox');
-      if (!box) return;
-      const STEP = Math.round(box.clientHeight * 0.80);
-      box.scrollBy({ top: STEP, behavior: 'smooth' });
+      const scrollbox = ev.fragment.closest('.scrollbox');
+      if (!scrollbox) return;
+      const offsetTop = ev.fragment.offsetTop;
+      scrollbox.scrollTo({
+        top: offsetTop - scrollbox.offsetHeight * 0.1,
+        behavior: 'smooth'
+      });
     });
   </script>
 </section>
+
+---
+
+<section>
+
+  <!-- Handrit Einsteins miðjað -->
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/einstein-handwritten.jpg' | relative_url }}{% raw %}"
+       alt="Einstein handrit"
+       style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
+
+  <!-- Freundlich í spássíunni hægra megin -->
+  <div class="fragment" style="
+        position:absolute;
+        top:2.5rem;
+        right:4%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:0.4rem;
+      ">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/freundlich.jpeg' | relative_url }}{% raw %}"
+         alt="Erwin Finlay-Freundlich"
+         style="height:20vh; border-radius:0.5rem; box-shadow:0 6px 20px rgba(0,0,0,0.45);" />
+    <span style="
+          font-size:1.1rem;
+          color:#fff;
+          background:rgba(0,0,0,0.55);
+          padding:0.15rem 0.6rem;
+          border-radius:0.35rem;
+          box-shadow:0 4px 12px rgba(0,0,0,0.4);
+        ">
+      Erwin Finlay-Freundlich
+    </span>
+  </div>
+
+</section>
+
+
+
+
+---
+
+## Sólmyrkvi 29. maí 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:72vh; margin-top:1rem;">
+
+  <!-- São Tomé -->
+  <div style="position:absolute; inset:0;
+              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sao-tome.png' | relative_url }}{% raw %}');
+              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- Sobral -->
+  <div class="fragment" style="position:absolute; inset:0;
+              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral.png' | relative_url }}{% raw %}');
+              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- Príncipe -->
+  <div class="fragment" style="position:absolute; inset:0;
+              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/principe.jpeg' | relative_url }}{% raw %}');
+              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- Eddington + Dyson með heitum -->
+  <div class="fragment fade-in-then-out"
+       style="
+         position:absolute;
+         left:10%;
+         bottom:6vh;
+         display:flex;
+         gap:1.6rem;
+         align-items:flex-end;
+         z-index:2;
+         pointer-events:none;
+       ">
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}"
+           alt="Arthur Eddington"
+           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+        Arthur Eddington
+      </span>
+    </div>
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dyson.jpeg' | relative_url }}{% raw %}"
+           alt="Frank Watson Dyson"
+           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+        Frank Watson Dyson
+      </span>
+    </div>
+  </div>
+
+  <!-- Sobral 2 -->
+  <div class="fragment" style="position:absolute; inset:0;
+              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral2.jpg' | relative_url }}{% raw %}');
+              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- Crommelin + Davidson með heitum -->
+  <div class="fragment fade-in-then-out"
+       style="
+         position:absolute;
+         left:10%;
+         bottom:6vh;
+         display:flex;
+         gap:1.6rem;
+         align-items:flex-end;
+         z-index:2;
+         pointer-events:none;
+       ">
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/crommelin.png' | relative_url }}{% raw %}"
+           alt="Andrew C. D. Crommelin og Charles Rundle Davidson"
+           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+        Andrew Crommelin
+      </span>
+      <span style="margin-top:0.2rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+        Charles Rundle Davidson
+      </span>
+    </div>
+  </div>
+
+  <!-- Yfir allt: Sobral-sjónauki -->
+  <div class="fragment" style="position:absolute; inset:0;
+              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral-sjonauki.jpg' | relative_url }}{% raw %}');
+              background-size:cover; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+</div>
+
+
+---
+
+<div style="position:relative; width:100%; height:72vh;">
+
+  <!-- Titill efst -->
+  <div style="
+    position:absolute; left:52%; top:1rem; transform:translateX(-50%);
+    width:82%; max-width:84rem; height:15vh;
+    background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/titill-eddington.png' | relative_url }}{% raw %}');
+    background-size:contain; background-position:left center; background-repeat:no-repeat;
+    filter:drop-shadow(0 6px 16px rgba(0,0,0,0.45));
+    pointer-events:none;
+  " aria-label="Titill greinar"></div>
+
+  <!-- Þrír menn: hægra megin við titilinn -->
+  <div style="
+    position:absolute; top:1rem; right:4%; height:15vh;
+    display:flex; align-items:center; gap:1rem;
+  ">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}"
+         alt="Arthur Eddington"
+         style="height:11.5vh; border-radius:0.4rem; box-shadow:0 4px 12px rgba(0,0,0,0.35);" />
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dyson.jpeg' | relative_url }}{% raw %}"
+         alt="Frank Watson Dyson"
+         style="height:11.5vh; border-radius:0.4rem; box-shadow:0 4px 12px rgba(0,0,0,0.35);" />
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/cdavidson.png' | relative_url }}{% raw %}"
+         alt="Charles Davidson"
+         style="height:11.5vh; border-radius:0.4rem; box-shadow:0 4px 12px rgba(0,0,0,0.35);" />
+  </div>
+
+  <!-- Meginrömmur fyrir innihald -->
+  <div style="
+    position:absolute; left:0; right:0; top:16.5vh; bottom:1.2vh;
+    display:flex; gap:2rem; padding:0 3%;
+  ">
+    <!-- Vinstri dálkur: tilgangur ofan, tafla neðan -->
+    <div style="flex:1 1 48%; display:flex; flex-direction:column;">
+      <div style="
+        flex:1; margin-bottom:0.4rem;
+        background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/tilgangur.png' | relative_url }}{% raw %}');
+        background-size:contain; background-position:center; background-repeat:no-repeat;
+        border-radius:0.6rem; box-shadow:0 6px 20px rgba(0,0,0,0.35);
+      " aria-label="Tilgangur"></div>
+
+  <div style="
+        flex:1; margin-top:0.4rem;
+        background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/stjornusvid.png' | relative_url }}{% raw %}');
+        background-size:contain; background-position:center; background-repeat:no-repeat;
+        border-radius:0.6rem; box-shadow:0 6px 20px rgba(0,0,0,0.35);
+      " aria-label="Tafla"></div>
+    </div>
+
+  <!-- Hægri dálkur: graf -->
+  <div style="
+      flex:1 1 52%;
+      background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/eddington-graf.png' | relative_url }}{% raw %}');
+      background-size:contain; background-position:center; background-repeat:no-repeat;
+      border-radius:0.6rem; box-shadow:0 8px 24px rgba(0,0,0,0.38);
+    " aria-label="Graf"></div>
+  </div>
+
+</div>
+
+
+---
+
+
+## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse1919.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
+## Hin vísindalega aðferð <!-- .element: style="font-size:2.6rem; text-transform:none;" -->
+
+<div style="margin-top:1.6rem;">
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/solmyrkvamaelingar.png' | relative_url }}{% raw %}"
+       alt="Sólmyrkvamælingar"
+       style="max-height:78vh; max-width:100%; object-fit:contain; display:block; margin:0 auto; box-shadow:0 6px 20px rgba(0,0,0,0.35); border-radius:0.5rem;">
+</div>
+
+
+
+---
+
+
+## The Modern Eddington Experiment (MEE) <!-- .element: style="font-size:2.3rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+
+  <!-- 1. Modern Eddington results (fyrst) -->
+  <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/modern.png" | relative_url }}{% raw %}');
+              background-size:contain; background-position:center; background-repeat:no-repeat; margin-left:10%;">
+  </div>
+
+  <!-- 2. Goals -->
+  <div class="fragment"
+       style="position:absolute; top:4vh; left:10%; width:80%; height:58vh;
+              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/goals.png" | relative_url }}{% raw %}');
+              background-size:contain; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- 3. Graph -->
+  <div class="fragment"
+       style="position:absolute; top:4vh; left:10%; width:80%; height:58vh;
+              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/einstein-val.png" | relative_url }}{% raw %}');
+              background-size:contain; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+  <!-- 4. Toby Dittrich portrait -->
+  <div class="fragment"
+       style="position:absolute; top:4vh; left:10%; width:80%; height:58vh;
+              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/toby_dittrich.jpeg" | relative_url }}{% raw %}');
+              background-size:contain; background-position:center; background-repeat:no-repeat;">
+  </div>
+
+</div>
+
+---
+
+
+## Okkur vantar hjálp! <!-- .element: style="font-size:2.5rem; text-transform:none;" -->
+
+<div style="
+  width:100%; height:72vh; margin-top:1rem;
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
+  gap:1.4rem;
+">
+
+  <!-- Mynd efst -->
+  <div style="
+    width:86%; height:50vh;
+    background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/cond2026.png' | relative_url }}{% raw %}');
+    background-size:contain; background-repeat:no-repeat; background-position:center;
+    border-radius:0.6rem; box-shadow:0 4px 18px rgba(0,0,0,0.35);
+  "></div>
+
+  <!-- Textinn fyrir neðan -->
+  <div style="
+    width:82%;
+    background:rgba(0,0,0,0.55);
+    padding:1.3rem 1.6rem;
+    border-radius:0.6rem;
+    box-shadow:0 4px 14px rgba(0,0,0,0.35);
+    font-size:1.55rem; line-height:1.6; color:#f0f0f0;
+  ">
+    <ul style="margin:0;">
+      <li>Við verðum með <strong>5 stjörnusjónauka og myndavélar</strong> í sólmyrkvanum.</li>
+      <li>Ef þið hafið áhuga á að <strong>stýra einum af sjónaukunum</strong> eða <strong>vinna með gögnin</strong> — þá væri það frábært!</li>
+    </ul>
+    </p>
+  </div>
+
+</div>
+
+
 
 ---
 
@@ -540,6 +849,26 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
   playsinline
   preload="metadata">
 </video>
+
+---
+
+## Eddington bíómyndin <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:72vh; margin-top:1rem; display:flex; align-items:center; justify-content:center; gap:4rem;">
+
+  <!-- Fyrri myndin: birtist fyrst -->
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/ems.jpeg' | relative_url }}{% raw %}"
+       alt="Eddington"
+       style="height:68vh; border-radius:0.6rem; box-shadow:0 8px 22px rgba(0,0,0,0.5);" />
+
+  <!-- Seinni myndin: birtist á næsta skrefi -->
+  <img class="fragment"
+       src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/edein.jpg' | relative_url }}{% raw %}"
+       alt="Einstein and Eddington"
+       style="height:68vh; border-radius:0.6rem; box-shadow:0 8px 22px rgba(0,0,0,0.5);" />
+
+</div>
+
 
 ---
 
