@@ -32,17 +32,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
      alt="Tintin"
      style="max-height:78vh; max-width:90%; object-fit:contain; display:block; margin:0 auto;">
 
-Note:
-Þessi glæra sýnir Tintin o.s.frv.
-
----
-
-## Hvað hafði landinn um sólmyrkvann 30. júní 1954 að segja? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
-  <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/solmyrkvi54a.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/solmyrkvi54c.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
-</div>
 
 ---
 
@@ -56,6 +45,17 @@ Note:
   playsinline
   preload="metadata">
 </video>
+
+
+---
+
+## Hvað hafði landinn um sólmyrkvann 30. júní 1954 að segja? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
+  <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/solmyrkvi54a.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/solmyrkvi54c.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+</div>
+
 
 ---
 
