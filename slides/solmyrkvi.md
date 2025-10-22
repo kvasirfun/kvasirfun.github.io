@@ -188,73 +188,13 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
      alt="Eddington og Einstein í Cambridge 1930"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
+
 ---
 
 
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/time_cover_trim.jpg' | relative_url }}{% raw %}"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
----
-
-<section>
-  <h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
-    Íslensk dagblöð 1919
-  </h3>
-
-  <style>
-    section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
-  </style>
-
-  <div class="r-stack" style="position:relative; width:100%; height:72vh;">
-    <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
-  </div>
-</section>
-
----
-
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}{% raw %}"
-     alt="Eddington og Einstein í Cambridge 1930"
-     style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
-
----
-
-## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<div style="display:flex; gap:2rem; align-items:stretch; justify-content:center; width:100%; max-height:72vh; margin-top:1rem;">
-  <figure style="flex:0 0 36%; display:flex; flex-direction:column; align-items:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/flexner.jpeg' | relative_url }}{% raw %}"
-         alt="Abraham Flexner"
-         style="max-height:60vh; width:auto; object-fit:contain; display:block;" />
-    <figcaption style="margin-top:0.6rem; font-size:1rem; text-align:center;">
-      Abraham Flexner<br>forstjóri IAS Princeton (1930-1939)
-    </figcaption>
-  </figure>
-
-  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dijkgraaf.jpg' | relative_url }}{% raw %}"
-       alt="Robbert Dijkgraaf"
-       style="flex:1 1 58%; max-height:60vh; max-width:100%; object-fit:contain; display:block;" />
-</div>
-
-<p style="position:absolute; left:65%; top:45%; color:black; font-size:1.5rem;">
-  Robbert Dijkgraaf
-</p>
-
-<p style="position:absolute; left:31%; top:4%; color:white; font-size:1.5rem;">
-  (The Usefulness of Useless Knowledge)
-</p>
 
 ---
 
@@ -273,16 +213,11 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Annus Mirabilis (1905) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/AnnusMirabilis.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
+
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}{% raw %}"
+     alt="Eddington og Einstein í Cambridge 1930"
+     style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
 
 ---
 
@@ -291,7 +226,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 <video
   data-autoplay
   class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/rutherford-story.mp4' | relative_url }}{% raw %}"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/RutherfordAndCoulomb.mp4' | relative_url }}{% raw %}"
   muted
   playsinline
   preload="metadata">
@@ -299,18 +234,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Tvístrun fyrir rafkraftinn <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/CoulombAll.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
-
----
 
 ## Zurich stílabókin (1912) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -813,42 +736,6 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
 
 </div>
 
----
-
-
-## Okkur vantar hjálp! <!-- .element: style="font-size:2.5rem; text-transform:none;" -->
-
-<div style="
-  width:100%; height:72vh; margin-top:1rem;
-  display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
-  gap:1.4rem;
-">
-
-  <!-- Mynd efst -->
-  <div style="
-    width:86%; height:50vh;
-    background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/cond2026.png' | relative_url }}{% raw %}');
-    background-size:contain; background-repeat:no-repeat; background-position:center;
-    border-radius:0.6rem; box-shadow:0 4px 18px rgba(0,0,0,0.35);
-  "></div>
-
-  <!-- Textinn fyrir neðan -->
-  <div style="
-    width:82%;
-    background:rgba(0,0,0,0.55);
-    padding:1.3rem 1.6rem;
-    border-radius:0.6rem;
-    box-shadow:0 4px 14px rgba(0,0,0,0.35);
-    font-size:1.55rem; line-height:1.6; color:#f0f0f0;
-  ">
-    <ul style="margin:0;">
-      <li>Við verðum með <strong>5 stjörnusjónauka og myndavélar</strong> í sólmyrkvanum.</li>
-      <li>Ef þið hafið áhuga á að <strong>stýra einum af sjónaukunum</strong> eða <strong>vinna með gögnin</strong> — þá væri það frábært!</li>
-    </ul>
-    </p>
-  </div>
-
-</div>
 
 
 
@@ -907,6 +794,119 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
   playsinline
   preload="metadata">
 </video>
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Um gagnsemi gagnslausrar þekkingar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<div style="display:flex; gap:2rem; align-items:stretch; justify-content:center; width:100%; max-height:72vh; margin-top:1rem;">
+  <figure style="flex:0 0 36%; display:flex; flex-direction:column; align-items:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/flexner.jpeg' | relative_url }}{% raw %}"
+         alt="Abraham Flexner"
+         style="max-height:60vh; width:auto; object-fit:contain; display:block;" />
+    <figcaption style="margin-top:0.6rem; font-size:1rem; text-align:center;">
+      Abraham Flexner<br>forstjóri IAS Princeton (1930-1939)
+    </figcaption>
+  </figure>
+
+  <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dijkgraaf.jpg' | relative_url }}{% raw %}"
+       alt="Robbert Dijkgraaf"
+       style="flex:1 1 58%; max-height:60vh; max-width:100%; object-fit:contain; display:block;" />
+</div>
+
+<p style="position:absolute; left:65%; top:45%; color:black; font-size:1.5rem;">
+  Robbert Dijkgraaf
+</p>
+
+<p style="position:absolute; left:31%; top:4%; color:white; font-size:1.5rem;">
+  (The Usefulness of Useless Knowledge)
+</p>
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Annus Mirabilis (1905) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/AnnusMirabilis.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+<section>
+  <h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+    Íslensk dagblöð 1919
+  </h3>
+
+  <style>
+    section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
+  </style>
+
+  <div class="r-stack" style="position:relative; width:100%; height:72vh;">
+    <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    </div>
+  </div>
+</section>
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Okkur vantar hjálp! <!-- .element: style="font-size:2.5rem; text-transform:none;" -->
+
+<div style="
+  width:100%; height:72vh; margin-top:1rem;
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
+  gap:1.4rem;
+">
+
+  <!-- Mynd efst -->
+  <div style="
+    width:86%; height:50vh;
+    background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/cond2026.png' | relative_url }}{% raw %}');
+    background-size:contain; background-repeat:no-repeat; background-position:center;
+    border-radius:0.6rem; box-shadow:0 4px 18px rgba(0,0,0,0.35);
+  "></div>
+
+  <!-- Textinn fyrir neðan -->
+  <div style="
+    width:82%;
+    background:rgba(0,0,0,0.55);
+    padding:1.3rem 1.6rem;
+    border-radius:0.6rem;
+    box-shadow:0 4px 14px rgba(0,0,0,0.35);
+    font-size:1.55rem; line-height:1.6; color:#f0f0f0;
+  ">
+    <ul style="margin:0;">
+      <li>Við verðum með <strong>5 stjörnusjónauka og myndavélar</strong> í sólmyrkvanum.</li>
+      <li>Ef þið hafið áhuga á að <strong>stýra einum af sjónaukunum</strong> eða <strong>vinna með gögnin</strong> — þá væri það frábært!</li>
+    </ul>
+    </p>
+  </div>
+
+</div>
+
 
 {% endraw %}
   </textarea>
