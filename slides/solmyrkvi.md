@@ -49,6 +49,44 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
+## Sólmyrkvinn 12. ágúst 2026 <!-- .element: style="font-size:2.4rem; text-transform:none;" -->
+
+<table style="width:80%; margin:auto; font-size:1.6rem; border-collapse:collapse; text-align:center; color:#111;">
+  <thead>
+    <tr style="background-color:#3b2e91; color:white;">
+      <th style="padding:0.6rem;">Staður</th>
+      <th style="padding:0.6rem;">Upphaf deildarmyrkva</th>
+      <th style="padding:0.6rem;">Upphaf almyrkva</th>
+      <th style="padding:0.6rem;">Lok almyrkva</th>
+      <th style="padding:0.6rem;">Lok deildarmyrkva</th>
+      <th style="padding:0.6rem;">Lengd almyrkva</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:#f3f1ff;">
+      <td style="padding:0.6rem;">Látrabjarg</td>
+      <td>16:43:39</td>
+      <td>17:44:28</td>
+      <td>17:46:41</td>
+      <td>18:44:55</td>
+      <td>2m 13s</td>
+    </tr>
+    <tr style="background-color:#ffffff;">
+      <td style="padding:0.6rem;">Reykjavík</td>
+      <td>16:47:12</td>
+      <td>17:48:16</td>
+      <td>17:49:15</td>
+      <td>18:47:37</td>
+      <td>59s</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+---
+
+
 ## Hvað hafði landinn um sólmyrkvann 30. júní 1954 að segja? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
@@ -92,7 +130,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Óður til Sævars Helga Bragasonar <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+## Sævar Helga og Stjarnvísindafélag Íslands <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
   <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/stjornu-saevar.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
@@ -101,21 +139,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
   <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
 
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gleraugu.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
-</div>
-
-<div class="fragment" style="
-  margin-top:0.8rem;
-  width:100%;
-  text-align:center;
-  font-size:1.0rem;
-  line-height:1.25;
-  background:rgba(0,0,0,0.55);
-  color:#fff;
-  padding:0.35rem 0.7rem;
-  border-radius:0.4rem;
-  box-shadow:0 4px 14px rgba(0,0,0,0.35);">
-  Tímahylki (Þjóðminjasafnið) · Mæling á jaðri almyrkvaslóðarinnar (Luca Quaglia) · UppHaf (Þykjó, Sigga og Ingibjörg)
 </div>
 
 ---
@@ -133,18 +156,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Hvernig tengist þetta kvartilaskiptum Tunglsins? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/lunar-faces.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
-
----
 
 ## Af hverju er þá ekki almyrkvi í hverjum einasta mánuði? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
@@ -874,6 +885,26 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
 
 ## Takk fyrir áheyrnina
 
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Aukaglærur <!-- .element: style="font-size:2.4rem; text-transform:none;" -->
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Hvernig tengist þetta kvartilaskiptum Tunglsins? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/lunar-faces.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
 {% endraw %}
   </textarea>
 </section>
+
