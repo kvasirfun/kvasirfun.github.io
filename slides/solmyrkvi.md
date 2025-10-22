@@ -233,6 +233,20 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   preload="metadata">
 </video>
 
+
+---
+
+## Annus Mirabilis (1905) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/AnnusMirabilis.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
 ---
 
 
@@ -268,6 +282,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
+<!-- .slide: data-visibility="uncounted" -->
 <div style="display:flex; align-items:center; justify-content:space-between; max-width:80%; margin:0 auto;">
   <blockquote style="flex:1; font-size:2.4rem; line-height:1.2; margin:0; text-align:left;">
     “Every boy in the streets of Göttingen understands more about four
@@ -321,60 +336,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   playsinline
   preload="metadata">
 </video>
-
----
-
-## Endurminningar um jólaboð Chandrasekhars <!-- .element: style="font-size:2.2rem; text-transform:none !important;" -->
-
-<div style="display:flex; align-items:flex-start; justify-content:space-between; max-width:90%; margin:0 auto; gap:2rem;">
-  <div style="flex:1;">
-    <div style="display:block; text-align:center;">
-      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/trinity-dinner.jpg' | relative_url }}{% raw %}"
-           alt="Trinity College Christmas Dinner 1933"
-           style="width:100%; max-height:70vh; object-fit:cover; border-radius:0.3rem; display:block; margin:0 auto;" />
-      <div style="font-size:1.3rem; margin-top:0.4rem; opacity:0.85;">
-        Trinity Hall, Cambridge
-      </div>
-    </div>
-  </div>
-
-  <div style="flex:1; display:flex; flex-direction:column; align-items:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/chandrasekhar.jpeg' | relative_url }}{% raw %}"
-         alt="S. Chandrasekhar"
-         style="height:18rem; width:auto; border-radius:0.3rem; margin-bottom:0.4rem;" />
-    <div style="font-size:1.4rem;">Subrahmanyan Chandrasekhar</div>
-  </div>
-</div>
-
-<div style="display:flex; justify-content:space-around; align-items:flex-start; max-width:90%; margin:2rem auto 0;">
-  <div style="text-align:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}"
-         alt="Ernest Rutherford"
-         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
-    <div style="font-size:1.2rem;">Ernest Rutherford</div>
-  </div>
-
-  <div style="text-align:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}"
-         alt="Arthur Eddington"
-         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
-    <div style="font-size:1.2rem;">Arthur Eddington</div>
-  </div>
-
-  <div style="text-align:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Du_Val.jpeg' | relative_url }}{% raw %}"
-         alt="Patrick du Val"
-         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
-    <div style="font-size:1.2rem;">Patrick du Val</div>
-  </div>
-
-  <div style="text-align:center;">
-    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}"
-         alt="Maurice Amos"
-         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
-    <div style="font-size:1.2rem;">Maurice Amos</div>
-  </div>
-</div>
 
 ---
 
@@ -563,6 +524,34 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 ---
 
 
+<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+  Íslensk dagblöð 1919
+</h3>
+
+<style>
+  section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
+</style>
+
+<div class="r-stack" style="position:relative; width:100%; height:72vh;">
+  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+</div>
+
+---
+
+
 ## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <video
@@ -714,45 +703,59 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   (The Usefulness of Useless Knowledge)
 </p>
 
----
-
-<!-- .slide: data-visibility="uncounted" -->
-## Annus Mirabilis (1905) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/AnnusMirabilis.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
 
 ---
 
 <!-- .slide: data-visibility="uncounted" -->
-<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
-  Íslensk dagblöð 1919
-</h3>
+## Endurminningar um jólaboð Chandrasekhars <!-- .element: style="font-size:2.2rem; text-transform:none !important;" -->
 
-<style>
-  section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
-</style>
-
-<div class="r-stack" style="position:relative; width:100%; height:72vh;">
-  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+<div style="display:flex; align-items:flex-start; justify-content:space-between; max-width:90%; margin:0 auto; gap:2rem;">
+  <div style="flex:1;">
+    <div style="display:block; text-align:center;">
+      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/trinity-dinner.jpg' | relative_url }}{% raw %}"
+           alt="Trinity College Christmas Dinner 1933"
+           style="width:100%; max-height:70vh; object-fit:cover; border-radius:0.3rem; display:block; margin:0 auto;" />
+      <div style="font-size:1.3rem; margin-top:0.4rem; opacity:0.85;">
+        Trinity Hall, Cambridge
+      </div>
+    </div>
   </div>
 
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  <div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/chandrasekhar.jpeg' | relative_url }}{% raw %}"
+         alt="S. Chandrasekhar"
+         style="height:18rem; width:auto; border-radius:0.3rem; margin-bottom:0.4rem;" />
+    <div style="font-size:1.4rem;">Subrahmanyan Chandrasekhar</div>
+  </div>
+</div>
+
+<div style="display:flex; justify-content:space-around; align-items:flex-start; max-width:90%; margin:2rem auto 0;">
+  <div style="text-align:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}"
+         alt="Ernest Rutherford"
+         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
+    <div style="font-size:1.2rem;">Ernest Rutherford</div>
   </div>
 
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  <div style="text-align:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}"
+         alt="Arthur Eddington"
+         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
+    <div style="font-size:1.2rem;">Arthur Eddington</div>
+  </div>
+
+  <div style="text-align:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Du_Val.jpeg' | relative_url }}{% raw %}"
+         alt="Patrick du Val"
+         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
+    <div style="font-size:1.2rem;">Patrick du Val</div>
+  </div>
+
+  <div style="text-align:center;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}"
+         alt="Maurice Amos"
+         style="height:6rem; width:auto; border-radius:0.3rem; margin-bottom:0.3rem;" />
+    <div style="font-size:1.2rem;">Maurice Amos</div>
   </div>
 </div>
 
