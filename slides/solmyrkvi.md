@@ -49,7 +49,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Sólmyrkvinn 12. ágúst 2026 <!-- .element: style="font-size:2.4rem; text-transform:none;" -->
+## Sólmyrkvinn miðvikudaginn 12. ágúst 2026 <!-- .element: style="font-size:2.4rem; text-transform:none;" -->
 
 <table style="width:80%; margin:auto; font-size:1.6rem; border-collapse:collapse; text-align:center; color:#111;">
   <thead>
