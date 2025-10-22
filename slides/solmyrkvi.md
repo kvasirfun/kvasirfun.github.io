@@ -459,6 +459,23 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
+
+
+## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse1919.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
+
+---
+
+
 <div style="position:relative; width:100%; height:72vh;">
 
   <!-- Titill efst -->
@@ -524,44 +541,12 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 ---
 
 
-<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
-  Íslensk dagblöð 1919
-</h3>
+## Fjölmiðlar <!-- .element: style="font-size:2.6rem; text-transform:none;" -->
 
-<style>
-  section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
-</style>
-
-<div class="r-stack" style="position:relative; width:100%; height:72vh;">
-  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-  </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-  </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-  </div>
-</div>
-
----
-
-
-## Niðurstöður Eddington tilraunar 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/Eclipse1919.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}" height="260">
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}" height="260">
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/worry.jpg' | relative_url }}{% raw %}" height="260">
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/revolution.jpg' | relative_url }}{% raw %}" height="260">
 
 
 ---
@@ -821,6 +806,34 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   });
 </script>
 
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+  Íslensk dagblöð 1919
+</h3>
+
+<style>
+  section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
+</style>
+
+<div class="r-stack" style="position:relative; width:100%; height:72vh;">
+  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+</div>
 
 ---
 
