@@ -138,7 +138,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
   <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gjaldthrot.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
 
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png' | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
 
 </div>
 
@@ -543,10 +543,10 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ## Fjölmiðlar <!-- .element: style="font-size:2.6rem; text-transform:none;" -->
 
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}" height="260">
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}" height="260">
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/worry.jpg' | relative_url }}{% raw %}" height="260">
-<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/revolution.jpg' | relative_url }}{% raw %}" height="260">
+<img src="{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}" height="260">
+<img src="{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}" height="260">
+<img src="{{ '/assets/slides/solmyrkvi/img/worry.jpg' | relative_url }}" height="260">
+<img src="{{ '/assets/slides/solmyrkvi/img/revolution.jpg' | relative_url }}" height="260">
 
 {% raw %}
 ---
@@ -876,4 +876,3 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 {% endraw %}
   </textarea>
 </section>
-
