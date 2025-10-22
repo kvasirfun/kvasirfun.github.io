@@ -130,7 +130,8 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ---
 
-## Sævar Helga og Stjarnvísindafélag Íslands <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+<!-- .slide: data-visibility="uncounted" -->
+## Sævar Helgi og Stjarnvísindafélag Íslands <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
   <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/stjornu-saevar.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
@@ -412,100 +413,87 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 </section>
 
 
-
-
 ---
 
-## Sólmyrkvi 29. maí 1919 <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+
+## Sólmyrkvi 29. maí 1919 (Principe og Sobral) <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:72vh; margin-top:1rem;">
 
-  <!-- São Tomé -->
+  <!-- Grunnkort -->
   <div style="position:absolute; inset:0;
-              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sao-tome.png' | relative_url }}{% raw %}');
-              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+    background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/both.png' | relative_url }}{% raw %}');
+    background-size:90% auto; background-position:center; background-repeat:no-repeat;">
   </div>
 
-  <!-- Sobral -->
-  <div class="fragment" style="position:absolute; inset:0;
-              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral.png' | relative_url }}{% raw %}');
-              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
+  <!-- Sobral: Crommelin + Davidson (lítið neðar) -->
+  <div class="fragment fade-out"
+       data-fragment-index="1"
+       style="position:absolute; left:6%; top:9vh;
+              display:flex; flex-direction:column; align-items:center;
+              z-index:2; pointer-events:none;">
+    <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/crommelin.png' | relative_url }}{% raw %}"
+         alt="Andrew Crommelin og Charles Rundle Davidson"
+         style="height:min(16vh, 20rem); border-radius:0.4rem;
+         box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+    <div style="margin-top:0.12rem; display:flex; gap:0.5rem;">
+      <span style="background:rgba(255,255,255,0.92);
+                   padding:0.15rem 0.55rem; border-radius:0.35rem;
+                   font-size:1.0rem; color:#000;">
+        Andrew Crommelin
+      </span>
+      <span style="background:rgba(255,255,255,0.92);
+                   padding:0.15rem 0.55rem; border-radius:0.35rem;
+                   font-size:1.0rem; color:#000;">
+        Charles Rundle Davidson
+      </span>
+    </div>
   </div>
 
-  <!-- Príncipe -->
-  <div class="fragment" style="position:absolute; inset:0;
-              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/principe.jpeg' | relative_url }}{% raw %}');
-              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
-  </div>
-
-  <!-- Eddington + Dyson með heitum -->
-  <div class="fragment fade-in-then-out"
-       style="
-         position:absolute;
-         left:10%;
-         bottom:6vh;
-         display:flex;
-         gap:1.6rem;
-         align-items:flex-end;
-         z-index:2;
-         pointer-events:none;
-       ">
+  <!-- Príncipe: Eddington + Dyson (lítið ofar) -->
+  <div class="fragment fade-out"
+       data-fragment-index="1"
+       style="position:absolute; right:6%; bottom:9vh;
+              display:flex; gap:1rem; align-items:flex-end;
+              z-index:2; pointer-events:none;">
     <div style="display:flex; flex-direction:column; align-items:center;">
       <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}"
            alt="Arthur Eddington"
-           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
-      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+           style="height:min(16vh, 20rem); border-radius:0.4rem;
+           box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+      <span style="margin-top:0.12rem; background:rgba(255,255,255,0.92);
+                   padding:0.15rem 0.55rem; border-radius:0.35rem;
+                   font-size:1.0rem; color:#000;">
         Arthur Eddington
       </span>
     </div>
     <div style="display:flex; flex-direction:column; align-items:center;">
       <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/dyson.jpeg' | relative_url }}{% raw %}"
            alt="Frank Watson Dyson"
-           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
-      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
+           style="height:min(16vh, 20rem); border-radius:0.4rem;
+           box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
+      <span style="margin-top:0.12rem; background:rgba(255,255,255,0.92);
+                   padding:0.15rem 0.55rem; border-radius:0.35rem;
+                   font-size:1.0rem; color:#000;">
         Frank Watson Dyson
       </span>
     </div>
   </div>
 
-  <!-- Sobral 2 -->
-  <div class="fragment" style="position:absolute; inset:0;
-              background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral2.jpg' | relative_url }}{% raw %}');
-              background-size:90% auto; background-position:center; background-repeat:no-repeat;">
-  </div>
-
-  <!-- Crommelin + Davidson með heitum -->
-  <div class="fragment fade-in-then-out"
-       style="
-         position:absolute;
-         left:10%;
-         bottom:6vh;
-         display:flex;
-         gap:1.6rem;
-         align-items:flex-end;
-         z-index:2;
-         pointer-events:none;
-       ">
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/crommelin.png' | relative_url }}{% raw %}"
-           alt="Andrew C. D. Crommelin og Charles Rundle Davidson"
-           style="height:min(21vh, 26rem); border-radius:0.4rem; box-shadow:0 4px 14px rgba(0,0,0,0.4);" />
-      <span style="margin-top:0.35rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
-        Andrew Crommelin
-      </span>
-      <span style="margin-top:0.2rem; background:rgba(255,255,255,0.9); padding:0.2rem 0.6rem; border-radius:0.35rem; font-size:1.05rem; color:#000; white-space:nowrap;">
-        Charles Rundle Davidson
-      </span>
-    </div>
-  </div>
-
-  <!-- Yfir allt: Sobral-sjónauki -->
-  <div class="fragment" style="position:absolute; inset:0;
+  <!-- Sjónauki: birtist á sama skrefi og hitt dofnar -->
+  <div class="fragment"
+       data-fragment-index="1"
+       style="position:absolute; inset:0; z-index:9;
               background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/sobral-sjonauki.jpg' | relative_url }}{% raw %}');
-              background-size:cover; background-position:center; background-repeat:no-repeat;">
+              background-size:cover; background-position:center;
+              background-repeat:no-repeat;">
   </div>
 
 </div>
+
+
+
 
 
 ---
@@ -586,7 +574,10 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   preload="metadata">
 </video>
 
+
 ---
+
+
 
 ## Hin vísindalega aðferð <!-- .element: style="font-size:2.6rem; text-transform:none;" -->
 
@@ -673,7 +664,10 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 ## Takk fyrir áheyrnina
 
+### Spurningar?
+
 ---
+
 
 <!-- .slide: data-visibility="uncounted" -->
 ## Aukaglærur <!-- .element: style="font-size:2.4rem; text-transform:none;" -->
@@ -691,7 +685,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   playsinline
   preload="metadata">
 </video>
-
 
 ---
 
@@ -721,7 +714,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   (The Usefulness of Useless Knowledge)
 </p>
 
-
 ---
 
 <!-- .slide: data-visibility="uncounted" -->
@@ -739,135 +731,92 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 ---
 
 <!-- .slide: data-visibility="uncounted" -->
-<section>
-  <h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
-    Íslensk dagblöð 1919
-  </h3>
+<h3 style="font-size:2rem; text-transform:none; margin-bottom:0.8rem;">
+  Íslensk dagblöð 1919
+</h3>
 
-  <style>
-    section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
-  </style>
+<style>
+  section .r-stack:has(.fragment.visible) > .initial { display: none !important; }
+</style>
 
-  <div class="r-stack" style="position:relative; width:100%; height:72vh;">
-    <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
-
-  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-      <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
-    </div>
+<div class="r-stack" style="position:relative; width:100%; height:72vh;">
+  <div class="initial" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/visir1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
   </div>
-</section>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/morgunbladid1919c.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+
+  <div class="fragment current-visible" style="position:absolute; inset:0; display:flex; flex-direction:column; gap:0.6rem; align-items:center; justify-content:center;">
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919a.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+    <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
+  </div>
+</div>
 
 
 ---
 
 <!-- .slide: data-visibility="uncounted" -->
-<section>
-  <style>
-    .dialog-wrap {
-      max-width: 88%;
-      margin: 0 auto;
-      margin-top: 0;
-    }
-    .scrollbox {
-      max-height: 72vh;
-      overflow-y: auto;
-      padding-right: 0.5rem;
-    }
-    .bubble {
-      display: inline-block;
-      padding: 0.7rem 1rem;
-      border-radius: 0.75rem;
-      line-height: 1.3;
-      font-size: 1.45rem;
-      margin: 0.2rem 0 1.2rem 0;
-      text-align: justify;
-    }
-    .left-bubble {
-      background: rgba(255,255,255,0.10);
-    }
-    .right-bubble {
-      background: rgba(255,255,255,0.15);
-    }
-    .row {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-    .left {
-      justify-content: flex-start;
-    }
-    .right {
-      justify-content: flex-end;
-      flex-direction: row-reverse;
-    }
-    .speaker-img {
-      height: 5.8rem;
-      width: auto;
-      border-radius: 0.3rem;
-      margin-top: 0.4rem;
-    }
-    .source-footer {
-      text-align: center;
-      font-size: 0.9rem;
-      opacity: 0.6;
-      margin-top: 1rem;
-    }
-  </style>
+<style>
+  .dialog-wrap { max-width: 88%; margin: 0 auto; margin-top: 0; }
+  .scrollbox { max-height: 72vh; overflow-y: auto; padding-right: 0.5rem; }
+  .bubble { display: inline-block; padding: 0.7rem 1rem; border-radius: 0.75rem; line-height: 1.3; font-size: 1.45rem; margin: 0.2rem 0 1.2rem 0; text-align: justify; }
+  .left-bubble { background: rgba(255,255,255,0.10); }
+  .right-bubble { background: rgba(255,255,255,0.15); }
+  .row { display: flex; align-items: flex-start; gap: 1rem; }
+  .left { justify-content: flex-start; }
+  .right { justify-content: flex-end; flex-direction: row-reverse; }
+  .speaker-img { height: 5.8rem; width: auto; border-radius: 0.3rem; margin-top: 0.4rem; }
+  .source-footer { text-align: center; font-size: 0.9rem; opacity: 0.6; margin-top: 1rem; }
+</style>
 
-  <div class="dialog-wrap">
-    <div class="scrollbox">
-      <div class="row left fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}" alt="Maurice Amos" />
-        <div class="bubble left-bubble">
-          Ég skil ekki af hverju Einstein er frægari en þú, Rutherford. Þú bjóst til líkan af atóminu sem liggur til grundvallar nútímaeðlisfræði og hefur víðtækari hagnýtingar en þyngdarlögmál Einsteins — ef það er rétt yfirhöfuð. Ég get auðvitað ekki sagt annað í nærveru Eddington. En munurinn á kenningum Einsteins og Newtons er svo smávægilegur að ég skil ekki af hverju allir gera svona mikið úr þessu.
-        </div>
-      </div>
-
-  <div class="row right fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}" alt="Ernest Rutherford" />
-        <div class="bubble right-bubble">
-          Það var Eddington sem skaut Einstein upp á stjörnuhimininn. Stríðinu var lokið og týnda kynslóðin leitaði að nýju leiðarljósi. Almenningur hafði alltaf hrifist af stjarnvísindum, og þegar kenningar hjá þýskum vísindamanni voru staðfestar af breskum stjarneðlisfræðingum, beint eftir stríð, var það kraftmikið tákn um að vísindi væru hafin yfir átök og pólitík. Eftir það var leikur einn fyrir bandaríska fjölmiðla að gera Einstein að stórstjörnu.
-        </div>
-      </div>
-
-  <div class="row left fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}" alt="Arthur Eddington" />
-        <div class="bubble left-bubble">
-          Hugsið ykkur samt ef Finlay-Freundlich hefði tekist að mæla ljóssveigju í sólmyrkvanum 1914. Á þeim tímapunkti hafði Einstein gert villu í útreikningum sínum og spáð sömu sveigju og í kenningu Newtons. Þá hefði kenning Einsteins misst trúverðugleika sinn og sagan verið önnur.
-        </div>
+<div class="dialog-wrap">
+  <div class="scrollbox">
+    <div class="row left fragment">
+      <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}" alt="Maurice Amos" />
+      <div class="bubble left-bubble">
+        Ég skil ekki af hverju Einstein er frægari en þú, Rutherford. Þú bjóst til líkan af atóminu sem liggur til grundvallar nútímaeðlisfræði og hefur víðtækari hagnýtingar en þyngdarlögmál Einsteins — ef það er rétt yfirhöfuð. Ég get auðvitað ekki sagt annað í nærveru Eddington. En munurinn á kenningum Einsteins og Newtons er svo smávægilegur að ég skil ekki af hverju allir gera svona mikið úr þessu.
       </div>
     </div>
 
-  <div class="source-footer">
-      Þýtt úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976)
+  <div class="row right fragment">
+      <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}" alt="Ernest Rutherford" />
+      <div class="bubble right-bubble">
+        Það var Eddington sem skaut Einstein upp á stjörnuhimininn. Stríðinu var lokið og týnda kynslóðin leitaði að nýju leiðarljósi. Almenningur hafði alltaf hrifist af stjarnvísindum, og þegar kenningar hjá þýskum vísindamanni voru staðfestar af breskum stjarneðlisfræðingum, beint eftir stríð, var það kraftmikið tákn um að vísindi væru hafin yfir átök og pólitík. Eftir það var leikur einn fyrir bandaríska fjölmiðla að gera Einstein að stórstjörnu.
+      </div>
+    </div>
+
+  <div class="row left fragment">
+      <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}" alt="Arthur Eddington" />
+      <div class="bubble left-bubble">
+        Hugsið ykkur samt ef Finlay-Freundlich hefði tekist að mæla ljóssveigju í sólmyrkvanum 1914. Á þeim tímapunkti hafði Einstein gert villu í útreikningum sínum og spáð sömu sveigju og í kenningu Newtons. Þá hefði kenning Einsteins misst trúverðugleika sinn og sagan verið önnur.
+      </div>
     </div>
   </div>
 
-  <script>
-    Reveal.on('slidechanged', function(ev){
-      const box = ev.currentSlide.querySelector('.scrollbox');
-      if (box) box.scrollTop = 0;
+  <div class="source-footer">
+    Þýtt úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976)
+  </div>
+</div>
+
+<script>
+  Reveal.on('slidechanged', function(ev){
+    const box = ev.currentSlide.querySelector('.scrollbox');
+    if (box) box.scrollTop = 0;
+  });
+  Reveal.on('fragmentshown', function(ev){
+    const scrollbox = ev.fragment.closest('.scrollbox');
+    if (!scrollbox) return;
+    const offsetTop = ev.fragment.offsetTop;
+    scrollbox.scrollTo({
+      top: offsetTop - scrollbox.offsetHeight * 0.1,
+      behavior: 'smooth'
     });
-    Reveal.on('fragmentshown', function(ev){
-      const scrollbox = ev.fragment.closest('.scrollbox');
-      if (!scrollbox) return;
-      const offsetTop = ev.fragment.offsetTop;
-      scrollbox.scrollTo({
-        top: offsetTop - scrollbox.offsetHeight * 0.1,
-        behavior: 'smooth'
-      });
-    });
-  </script>
-</section>
+  });
+</script>
 
 
 ---
@@ -902,10 +851,10 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
       <li>Við verðum með <strong>5 stjörnusjónauka og myndavélar</strong> í sólmyrkvanum.</li>
       <li>Ef þið hafið áhuga á að <strong>stýra einum af sjónaukunum</strong> eða <strong>vinna með gögnin</strong> — þá væri það frábært!</li>
     </ul>
-    </p>
   </div>
 
 </div>
+
 
 
 {% endraw %}
