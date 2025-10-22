@@ -265,8 +265,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   </div>
 </div>
 
-Note: Every boy in the streets of Gottingen understands more about four dimensional geometry than Einstein.
-
 ---
 
 <div style="display:flex; align-items:center; justify-content:space-between; max-width:80%; margin:0 auto;">
@@ -376,107 +374,6 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
     <div style="font-size:1.2rem;">Maurice Amos</div>
   </div>
 </div>
-
----
-
-<section>
-  <style>
-    .dialog-wrap {
-      max-width: 88%;
-      margin: 0 auto;
-      margin-top: 0;
-    }
-    .scrollbox {
-      max-height: 72vh;
-      overflow-y: auto;
-      padding-right: 0.5rem;
-    }
-    .bubble {
-      display: inline-block;
-      padding: 0.7rem 1rem;
-      border-radius: 0.75rem;
-      line-height: 1.3;
-      font-size: 1.45rem;
-      margin: 0.2rem 0 1.2rem 0;
-      text-align: justify;
-    }
-    .left-bubble {
-      background: rgba(255,255,255,0.10);
-    }
-    .right-bubble {
-      background: rgba(255,255,255,0.15);
-    }
-    .row {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-    .left {
-      justify-content: flex-start;
-    }
-    .right {
-      justify-content: flex-end;
-      flex-direction: row-reverse;
-    }
-    .speaker-img {
-      height: 5.8rem;
-      width: auto;
-      border-radius: 0.3rem;
-      margin-top: 0.4rem;
-    }
-    .source-footer {
-      text-align: center;
-      font-size: 0.9rem;
-      opacity: 0.6;
-      margin-top: 1rem;
-    }
-  </style>
-
-  <div class="dialog-wrap">
-    <div class="scrollbox">
-      <div class="row left fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}" alt="Maurice Amos" />
-        <div class="bubble left-bubble">
-          Ég skil ekki af hverju Einstein er frægari en þú, Rutherford. Þú bjóst til líkan af atóminu sem liggur til grundvallar nútímaeðlisfræði og hefur víðtækari hagnýtingar en þyngdarlögmál Einsteins — ef það er rétt yfirhöfuð. Ég get auðvitað ekki sagt annað í nærveru Eddington. En munurinn á kenningum Einsteins og Newtons er svo smávægilegur að ég skil ekki af hverju allir gera svona mikið úr þessu.
-        </div>
-      </div>
-
-  <div class="row right fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}" alt="Ernest Rutherford" />
-        <div class="bubble right-bubble">
-          Það var Eddington sem skaut Einstein upp á stjörnuhimininn. Stríðinu var lokið og týnda kynslóðin leitaði að nýju leiðarljósi. Almenningur hafði alltaf hrifist af stjarnvísindum, og þegar kenningar hjá þýskum vísindamanni voru staðfestar af breskum stjarneðlisfræðingum, beint eftir stríð, var það kraftmikið tákn um að vísindi væru hafin yfir átök og pólitík. Eftir það var leikur einn fyrir bandaríska fjölmiðla að gera Einstein að stórstjörnu.
-        </div>
-      </div>
-
-  <div class="row left fragment">
-        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}" alt="Arthur Eddington" />
-        <div class="bubble left-bubble">
-          Hugsið ykkur samt ef Finlay-Freundlich hefði tekist að mæla ljóssveigju í sólmyrkvanum 1914. Á þeim tímapunkti hafði Einstein gert villu í útreikningum sínum og spáð sömu sveigju og í kenningu Newtons. Þá hefði kenning Einsteins misst trúverðugleika sinn og sagan verið önnur.
-        </div>
-      </div>
-    </div>
-
-  <div class="source-footer">
-      Þýtt úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976)
-    </div>
-  </div>
-
-  <script>
-    Reveal.on('slidechanged', function(ev){
-      const box = ev.currentSlide.querySelector('.scrollbox');
-      if (box) box.scrollTop = 0;
-    });
-    Reveal.on('fragmentshown', function(ev){
-      const scrollbox = ev.fragment.closest('.scrollbox');
-      if (!scrollbox) return;
-      const offsetTop = ev.fragment.offsetTop;
-      scrollbox.scrollTo({
-        top: offsetTop - scrollbox.offsetHeight * 0.1,
-        behavior: 'smooth'
-      });
-    });
-  </script>
-</section>
 
 ---
 
@@ -867,6 +764,109 @@ Note: Every boy in the streets of Gottingen understands more about four dimensio
       <div style="width:80%; height:32vh; background-image:url('{% endraw %}{{ '/assets/slides/solmyrkvi/img/althydubladid1919b.jpg' | relative_url }}{% raw %}'); background-size:contain; background-position:center; background-repeat:no-repeat;"></div>
     </div>
   </div>
+</section>
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+<section>
+  <style>
+    .dialog-wrap {
+      max-width: 88%;
+      margin: 0 auto;
+      margin-top: 0;
+    }
+    .scrollbox {
+      max-height: 72vh;
+      overflow-y: auto;
+      padding-right: 0.5rem;
+    }
+    .bubble {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border-radius: 0.75rem;
+      line-height: 1.3;
+      font-size: 1.45rem;
+      margin: 0.2rem 0 1.2rem 0;
+      text-align: justify;
+    }
+    .left-bubble {
+      background: rgba(255,255,255,0.10);
+    }
+    .right-bubble {
+      background: rgba(255,255,255,0.15);
+    }
+    .row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .left {
+      justify-content: flex-start;
+    }
+    .right {
+      justify-content: flex-end;
+      flex-direction: row-reverse;
+    }
+    .speaker-img {
+      height: 5.8rem;
+      width: auto;
+      border-radius: 0.3rem;
+      margin-top: 0.4rem;
+    }
+    .source-footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+      margin-top: 1rem;
+    }
+  </style>
+
+  <div class="dialog-wrap">
+    <div class="scrollbox">
+      <div class="row left fragment">
+        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/maurice-amos.jpeg' | relative_url }}{% raw %}" alt="Maurice Amos" />
+        <div class="bubble left-bubble">
+          Ég skil ekki af hverju Einstein er frægari en þú, Rutherford. Þú bjóst til líkan af atóminu sem liggur til grundvallar nútímaeðlisfræði og hefur víðtækari hagnýtingar en þyngdarlögmál Einsteins — ef það er rétt yfirhöfuð. Ég get auðvitað ekki sagt annað í nærveru Eddington. En munurinn á kenningum Einsteins og Newtons er svo smávægilegur að ég skil ekki af hverju allir gera svona mikið úr þessu.
+        </div>
+      </div>
+
+  <div class="row right fragment">
+        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/rutherfords.jpg' | relative_url }}{% raw %}" alt="Ernest Rutherford" />
+        <div class="bubble right-bubble">
+          Það var Eddington sem skaut Einstein upp á stjörnuhimininn. Stríðinu var lokið og týnda kynslóðin leitaði að nýju leiðarljósi. Almenningur hafði alltaf hrifist af stjarnvísindum, og þegar kenningar hjá þýskum vísindamanni voru staðfestar af breskum stjarneðlisfræðingum, beint eftir stríð, var það kraftmikið tákn um að vísindi væru hafin yfir átök og pólitík. Eftir það var leikur einn fyrir bandaríska fjölmiðla að gera Einstein að stórstjörnu.
+        </div>
+      </div>
+
+  <div class="row left fragment">
+        <img class="speaker-img" src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/arthur-eddington.jpeg' | relative_url }}{% raw %}" alt="Arthur Eddington" />
+        <div class="bubble left-bubble">
+          Hugsið ykkur samt ef Finlay-Freundlich hefði tekist að mæla ljóssveigju í sólmyrkvanum 1914. Á þeim tímapunkti hafði Einstein gert villu í útreikningum sínum og spáð sömu sveigju og í kenningu Newtons. Þá hefði kenning Einsteins misst trúverðugleika sinn og sagan verið önnur.
+        </div>
+      </div>
+    </div>
+
+  <div class="source-footer">
+      Þýtt úr S. Chandrasekhar, <em>Verifying the Theory of Relativity</em> (1976)
+    </div>
+  </div>
+
+  <script>
+    Reveal.on('slidechanged', function(ev){
+      const box = ev.currentSlide.querySelector('.scrollbox');
+      if (box) box.scrollTop = 0;
+    });
+    Reveal.on('fragmentshown', function(ev){
+      const scrollbox = ev.fragment.closest('.scrollbox');
+      if (!scrollbox) return;
+      const offsetTop = ev.fragment.offsetTop;
+      scrollbox.scrollTo({
+        top: offsetTop - scrollbox.offsetHeight * 0.1,
+        behavior: 'smooth'
+      });
+    });
+  </script>
 </section>
 
 
