@@ -168,10 +168,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   preload="metadata">
 </video>
 
-Note:
-1) Hringmyrkvi o.s.frv.
-2) Misleit plan o.s.frv.
-
 ---
 
 ## Hvað er sólmyrkvi? <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
@@ -185,7 +181,15 @@ Note:
   preload="metadata">
 </video>
 
+
 ---
+
+<img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/solmyrkvi-prob.png' | relative_url }}{% raw %}"
+     alt="Eddington og Einstein í Cambridge 1930"
+     style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
+
+---
+
 
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/time_cover_trim.jpg' | relative_url }}{% raw %}"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
