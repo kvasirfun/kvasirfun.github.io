@@ -539,7 +539,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
 
 ---
-
+{% endraw %}
 
 ## Fjölmiðlar <!-- .element: style="font-size:2.6rem; text-transform:none;" -->
 
@@ -548,7 +548,7 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/worry.jpg' | relative_url }}{% raw %}" height="260">
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/revolution.jpg' | relative_url }}{% raw %}" height="260">
 
-
+{% raw %}
 ---
 
 
