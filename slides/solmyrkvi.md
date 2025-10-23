@@ -138,9 +138,9 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 
   <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gjaldthrot.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
 
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png' | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
-
+  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
 </div>
+
 
 ---
 
