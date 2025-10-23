@@ -316,6 +316,20 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
   preload="metadata">
 </video>
 
+
+---
+
+## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/CoulombAll.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
+
 ---
 
 ## Sveigja ljóss í sígildri eðlisfræði <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
