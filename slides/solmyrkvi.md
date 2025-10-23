@@ -134,12 +134,30 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 ## Sævar Helgi og Stjarnvísindafélag Íslands <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
 
 <div style="position:relative; width:100%; height:62vh; margin-top:1.2rem;">
-  <div style="width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/stjornu-saevar.jpg" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat; margin-left:10%;"></div>
 
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gjaldthrot.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+  <!-- Fyrst: gjaldþrot.png -->
+  <div style="width:80%; height:58vh;
+              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/gjaldthrot.png" | relative_url }}{% raw %}');
+              background-size:90% auto; background-position:top center; background-repeat:no-repeat;
+              margin-left:10%;">
+  </div>
 
-  <div class="fragment" style="position:absolute; top:4vh; left:15%; width:80%; height:58vh; background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}'); background-size:90% auto; background-position:top center; background-repeat:no-repeat;"></div>
+  <!-- Síðan: tvær hlið við hlið -->
+  <div class="fragment" style="position:absolute; top:4vh; left:10%; width:80%; height:58vh; display:flex; justify-content:space-between;">
+
+  <div style="width:48%; height:100%;
+                background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/stjornu-saevar.jpg" | relative_url }}{% raw %}');
+                background-size:contain; background-position:center; background-repeat:no-repeat;">
+    </div>
+
+  <div style="width:48%; height:100%;
+                background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/si.png" | relative_url }}{% raw %}');
+                background-size:contain; background-position:center; background-repeat:no-repeat;">
+    </div>
+
+  </div>
 </div>
+
 
 
 ---
@@ -219,19 +237,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 <img src="{% endraw %}{{ '/assets/slides/solmyrkvi/img/Eddington-Einstein-Cambridge-1930.jpg' | relative_url }}{% raw %}"
      alt="Eddington og Einstein í Cambridge 1930"
      style="max-height:80vh; max-width:100%; object-fit:contain; display:block; margin:0 auto;">
-
----
-
-## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
-
-<video
-  data-autoplay
-  class="vh70"
-  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/RutherfordAndCoulomb.mp4' | relative_url }}{% raw %}"
-  muted
-  playsinline
-  preload="metadata">
-</video>
 
 
 ---
@@ -575,19 +580,6 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
               background-size:contain; background-position:center; background-repeat:no-repeat; margin-left:10%;">
   </div>
 
-  <!-- 2. Goals -->
-  <div class="fragment"
-       style="position:absolute; top:4vh; left:10%; width:80%; height:58vh;
-              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/goals.png" | relative_url }}{% raw %}');
-              background-size:contain; background-position:center; background-repeat:no-repeat;">
-  </div>
-
-  <!-- 3. Graph -->
-  <div class="fragment"
-       style="position:absolute; top:4vh; left:10%; width:80%; height:58vh;
-              background-image:url('{% endraw %}{{ "/assets/slides/solmyrkvi/img/einstein-val.png" | relative_url }}{% raw %}');
-              background-size:contain; background-position:center; background-repeat:no-repeat;">
-  </div>
 
   <!-- 4. Toby Dittrich portrait -->
   <div class="fragment"
@@ -687,6 +679,21 @@ harksen.is/slides/solmyrkvi <!-- .element: style="font-size:1.1rem; margin-top:0
 <p style="position:absolute; left:31%; top:4%; color:white; font-size:1.5rem;">
   (The Usefulness of Useless Knowledge)
 </p>
+
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+## Rutherford tvístrun <!-- .element: style="font-size:2.2rem; text-transform:none;" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/solmyrkvi/video/RutherfordAndCoulomb.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  preload="metadata">
+</video>
 
 
 ---
