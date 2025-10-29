@@ -3,8 +3,8 @@ layout: post
 title: "Vatnseldflaug"
 description: Skemmtileg vísindamiðlun til almennings með vatnseldflaug.
 date: 2025-07-05
-categories: [outreach]
-tags: [outreach]
+categories: [Outreach]
+tags: [Outreach]
 math: true
 image:
   path: /assets/img/huf/huf1.jpg
