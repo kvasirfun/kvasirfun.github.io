@@ -291,7 +291,7 @@ harksen.is/slides/floaskoli <!-- .element: style="font-size:1.1rem; margin-top:0
 <div style="display:flex; justify-content:center; margin-top:1.5rem;">
 
   <img src="{% endraw %}{{ '/assets/slides/floaskoli/img/menntaverdlaun.png' | relative_url }}{% raw %}"
-       alt="Birte Harksen og Íslensku menntaverðlaunin"
+       alt="Birte Harksen"
        style="max-height:65vh; width:auto; border-radius:0.8rem;
               box-shadow:0 12px 36px rgba(0,0,0,0.7);" />
 
