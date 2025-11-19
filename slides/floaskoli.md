@@ -266,7 +266,7 @@ harksen.is/slides/floaskoli <!-- .element: style="font-size:1.1rem; margin-top:0
            alt="Martin Jónas Björn Swift"
            style="max-height:26vh; width:auto; border-radius:0.7rem; box-shadow:0 8px 24px rgba(0,0,0,0.6); object-fit:cover;" />
       <figcaption style="margin-top:-1.6rem; font-size:1.3rem;">
-        Martin, Jónas, Björn og Swift
+        Martin Jónas Björn Swift
       </figcaption>
     </figure>
 
