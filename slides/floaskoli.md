@@ -282,7 +282,7 @@ harksen.is/slides/floaskoli <!-- .element: style="font-size:1.1rem; margin-top:0
 
   </div>
 
-
+</div>
 
 ---
 
@@ -297,8 +297,8 @@ harksen.is/slides/floaskoli <!-- .element: style="font-size:1.1rem; margin-top:0
 
 </div>
 
-
 ---
+
 
 
 ## Þróunarsjóður námsgagna I <!-- .element: style="font-size:2.4rem; text-transform:none; margin-bottom:0.5rem;" -->
