@@ -590,7 +590,7 @@ permalink: /slides/island/
 
 ## Svar við spurningu 1 <!-- .element: style="font-size:2.6rem; margin-bottom:1.0rem;" -->
 
-### Spurning 1: Hvaða bæjarstæði á Vestfjörðum er þetta? <!-- .element: style="font-size:2.0rem;" -->
+### Spurning 1: Hvaða bæjarstæði á Vestfjörðum er þetta?? <!-- .element: style="font-size:2.0rem;" -->
 
 <div style="display:flex; justify-content:center; gap:2rem; margin-top:2rem;">
 
