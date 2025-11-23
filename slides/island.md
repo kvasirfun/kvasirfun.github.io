@@ -25,23 +25,7 @@ permalink: /slides/island/
 
   <img
     src="{% endraw %}{{ '/assets/slides/island/img/bildudalur.jpg' | relative_url }}{% raw %}"
-    alt="a) Bíldudalur"
-    style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
-           max-height:65vh; width:auto; border-radius:0.6rem;
-           box-shadow:0 10px 30px rgba(0,0,0,0.6);" />
-
-  <img
-    class="fragment"
-    src="{% endraw %}{{ '/assets/slides/island/img/patreksfjordur_small.png' | relative_url }}{% raw %}"
-    alt="b) Patreksfjörður"
-    style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
-           max-height:65vh; width:auto; border-radius:0.6rem;
-           box-shadow:0 10px 30px rgba(0,0,0,0.6);" />
-
-  <img
-    class="fragment"
-    src="{% endraw %}{{ '/assets/slides/island/img/thingeyri.png' | relative_url }}{% raw %}"
-    alt="c) Þingeyri"
+    alt="Bíldudalur"
     style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
            max-height:65vh; width:auto; border-radius:0.6rem;
            box-shadow:0 10px 30px rgba(0,0,0,0.6);" />
@@ -49,6 +33,7 @@ permalink: /slides/island/
 </div>
 
 ---
+
 
 ## Spurning 2 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
 ### Hver er þjóðaríþrótt Íslendinga? <!-- .element: style="font-size:2.0rem; text-transform:none; margin-bottom:1.0rem;" -->
@@ -291,7 +276,7 @@ permalink: /slides/island/
 
 
 ## Spurning 12 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
-### Hvaða þjóðsagnarvera er þetta? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+### Hvaða þjóðsagnarvera á þetta að vera? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
 
 <div style="display:flex; justify-content:center;">
 
@@ -408,6 +393,197 @@ permalink: /slides/island/
 ---
 
 
+## Spurning 17 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Parið saman orð og skýringar úr spilinu Fimbulfamb  <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:2.5rem; margin-top:1.8rem;">
+
+  <!-- Vinstri: mynd -->
+  <div style="flex:0 0 auto;">
+    <img
+      src="{% endraw %}{{ '/assets/slides/island/img/fimbulfamb.png' | relative_url }}{% raw %}"
+      alt="Fimbulfamb"
+      style="max-height:42vh; width:auto; border-radius:0.6rem; box-shadow:0 8px 24px rgba(0,0,0,0.45);" />
+  </div>
+
+  <!-- Hægri: orð og skýringar -->
+  <div
+    style="
+      padding:1.6rem 2.4rem;
+      background:rgba(255,255,255,0.06);
+      border-radius:0.7rem;
+      box-shadow:0 8px 24px rgba(0,0,0,0.45);
+      font-size:1.7rem;
+      line-height:2.4rem;
+      min-width:33rem;
+    ">
+
+  <div style="display:flex; gap:3.5rem;">
+
+  <!-- Orð -->
+  <div>
+        <div style="font-weight:600; text-align:center; margin-bottom:0.7rem;">
+          Orð
+        </div>
+        <ol style="list-style-type:none; padding:0; margin:0;">
+          <li>a) Döggskór</li>
+          <li>b) Skjatti</li>
+          <li>c) Fúkáti</li>
+          <li>d) Bekkjarýja</li>
+        </ol>
+      </div>
+
+  <!-- Skýringar -->
+  <div>
+        <div style="font-weight:600; text-align:center; margin-bottom:0.7rem;">
+          Skýring
+        </div>
+        <ol style="list-style-type:none; padding:0; margin:0;">
+          <li>1) Geðstirður maður</li>
+          <li>2) Málmhlíf sverðslíðurs</li>
+          <li>3) Nýfleygur kríungi</li>
+          <li>4) Borðtuska</li>
+        </ol>
+      </div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+---
+
+
+## Spurning 18 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Hvaða fjallstindur fær ekki að aðskilja anda sem unnast? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; gap:2.5rem; align-items:center; margin-top:1.5rem;">
+
+  <img
+    src="{% endraw %}{{ '/assets/slides/island/img/10thus.png' | relative_url }}{% raw %}"
+    alt="Tíu þúsund króna seðill með Jónasi Hallgrímssyni"
+    style="
+      max-height:55vh;
+      width:auto;
+      border-radius:0.6rem;
+      box-shadow:0 8px 24px rgba(0,0,0,0.55);
+    " />
+
+  <img
+    src="{% endraw %}{{ '/assets/slides/island/img/hraundrangi.png' | relative_url }}{% raw %}"
+    alt="Fjallið Hraundrangi í Öxnadal"
+    style="
+      max-height:55vh;
+      width:auto;
+      border-radius:0.6rem;
+      box-shadow:0 8px 24px rgba(0,0,0,0.55);
+    " />
+
+</div>
+
+
+
+---
+
+
+## Spurning 19 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Hvaða íslenska matvæli er verið að lýsa? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<video
+  controls
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/island/video/matarsaga.mp4' | relative_url }}{% raw %}"
+  playsinline
+  preload="metadata">
+</video>
+
+
+
+---
+
+
+## Spurning 20 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Hvaða staður tengir þessi þrjú fyrirbæri saman? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; gap:3.5rem; align-items:flex-start; margin-top:1.5rem;">
+
+  <!-- Jökulsá á fjöllum -->
+  <div style="text-align:center;">
+    <img
+      src="{% endraw %}{{ '/assets/slides/island/img/jokulsa.png' | relative_url }}{% raw %}"
+      alt="Jökulsá á fjöllum"
+      style="
+        max-height:40vh;
+        width:auto;
+        border-radius:0.6rem;
+        box-shadow:0 8px 24px rgba(0,0,0,0.55);
+        margin-bottom:1rem;
+      " />
+    <div style="font-size:1.7rem;">Jökulsá á fjöllum</div>
+  </div>
+
+  <!-- Sigur Rós -->
+  <div style="text-align:center;">
+    <img
+      src="{% endraw %}{{ '/assets/slides/island/img/sigur-ros.png' | relative_url }}{% raw %}"
+      alt="Sigur Rós"
+      style="
+        max-height:40vh;
+        width:auto;
+        border-radius:0.6rem;
+        box-shadow:0 8px 24px rgba(0,0,0,0.55);
+        margin-bottom:1rem;
+      " />
+    <div style="font-size:1.7rem;">Sigur Rós</div>
+  </div>
+
+  <!-- Sleipnir -->
+  <div style="text-align:center;">
+    <img
+      src="{% endraw %}{{ '/assets/slides/island/img/sleipnir.png' | relative_url }}{% raw %}"
+      alt="Sleipnir"
+      style="
+        max-height:40vh;
+        width:auto;
+        border-radius:0.6rem;
+        box-shadow:0 8px 24px rgba(0,0,0,0.55);
+        margin-bottom:1rem;
+      " />
+    <div style="font-size:1.7rem;">Sleipnir</div>
+  </div>
+
+</div>
+
+
+
+---
+
+
+## Spurning 21 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Hvaða sundlaug er þetta? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; margin-top:1.5rem;">
+
+  <img
+    src="{% endraw %}{{ '/assets/slides/island/img/ak-sundlaug.png' | relative_url }}{% raw %}"
+    alt="Sundlaug"
+    style="
+      max-height:70vh;
+      width:auto;
+      border-radius:0.6rem;
+      box-shadow:0 10px 30px rgba(0,0,0,0.55);
+    " />
+
+</div>
+
+
+
+---
+
+
 ## Svör við spurningum <!-- .element: style="font-size:2.8rem; margin-bottom:1.5rem;" -->
 
 ---
@@ -439,9 +615,6 @@ permalink: /slides/island/
   a) Bíldudalur &nbsp;&nbsp;&nbsp; b) Patreksfjörður &nbsp;&nbsp;&nbsp; c) Þingeyri
 </p>
 
-<p style="margin-top:2rem; font-size:2.0rem; text-align:center;">
-  Rétt svar: <strong>c) Þingeyri</strong>
-</p>
 
 {% endraw %}
 </textarea>
