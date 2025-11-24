@@ -659,14 +659,14 @@ Spurningahöfundur: Matthias Harksen
 
   <div style="flex:1; text-align:left;">
 
-  <p class="fragment"><strong>6.</strong> „Hver á sér fegra föðurland“ Hulda</p>
-    <p class="fragment"><strong>7.</strong> Sigríður í Brattholti</p>
-    <p class="fragment"><strong>8.</strong> Laxness, „Söknuður“ Jóhann Jónsson </p>
+  <p class="fragment"><strong>6.</strong> Hulda (Unnur Benediktsdóttir Bjarklind) </p>
+    <p class="fragment"><strong>7.</strong> Sigríður Tómasdóttir í Brattholti</p>
+    <p class="fragment"><strong>8.</strong> Halldór Kiljan Laxness les „Söknuður“ eftir Jóhann Jónsson </p>
 
   <p class="fragment"><strong>9.</strong> Okjökull</p>
-    <p class="fragment"><strong>10.</strong> Torfbær</p>
+    <p class="fragment"><strong>10.</strong> Torfbær </p>
     <p class="fragment"><strong>11.</strong> Danakonungur (Friðrik áttundi 1907 eða Kristján tíundi 1921) </p>
-    <p class="fragment"><strong>12.</strong> Nykur</p>
+    <p class="fragment"><strong>12.</strong> Nykur </p>
 
   </div>
 
@@ -681,17 +681,17 @@ Spurningahöfundur: Matthias Harksen
 
   <div style="flex:1; text-align:left;">
 
-  <p class="fragment"><strong>13.</strong> 12. ágúst 2026</p>
-    <p class="fragment"><strong>14.</strong> Hrafntinnusker</p>
-    <p class="fragment"><strong>15.</strong> Síld</p>
+  <p class="fragment"><strong>13.</strong> 12. ágúst 2026 </p>
+    <p class="fragment"><strong>14.</strong> Hrafntinnusker </p>
+    <p class="fragment"><strong>15.</strong> Síld </p>
 
   <p class="fragment">
-      <strong>16.</strong> a) Jón Pál • b) brjósti • c) Jens • d) bitur • e) Kópavogi
+      <strong>16.</strong> a) Jón Pál • b) brjósti • c) Jens • d) þungur • e) Kópavogi
     </p>
 
   <p class="fragment">
       <strong>17.</strong>
-      Döggskór málmhlíf • Skjatti kríuungi • Fúkáti geðvondur maður • Bekkjarýja borðtuska
+      Döggskór málmhlíf sverðslíðurs • Skjatti nýfleygur kríuungi • Fúkáti geðstirður maður • Bekkjarýja borðtuska
     </p>
 
   </div>
@@ -699,11 +699,11 @@ Spurningahöfundur: Matthias Harksen
   <div style="flex:1; text-align:left;">
 
   <p class="fragment"><strong>18.</strong> Hraundrangi </p>
-    <p class="fragment"><strong>19.</strong> Skyr</p>
-    <p class="fragment"><strong>20.</strong> Ásbyrgi</p>
+    <p class="fragment"><strong>19.</strong> Skyr </p>
+    <p class="fragment"><strong>20.</strong> Ásbyrgi </p>
 
-  <p class="fragment"><strong>21.</strong> Akureyrarlaug</p>
-    <p class="fragment"><strong>22.</strong> Selárdalur Samúel Jónsson</p>
+  <p class="fragment"><strong>21.</strong> Akureyrarlaug </p>
+    <p class="fragment"><strong>22.</strong> Selárdalur </p>
 
   <p class="fragment">
       <strong>23.</strong> Ljósbjörg Petra María Sveinsdóttir; Stöðvarfjörður
