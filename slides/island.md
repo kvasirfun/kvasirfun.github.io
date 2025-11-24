@@ -14,7 +14,22 @@ permalink: /slides/island/
 {% raw %}
 # Barsvar um Ísland og menningu þess <!-- .element: style="font-size:3.0rem" -->
 
-## Fyrir miðlæga stjórnsýslu 25. nóvember 2025 <!-- .element: style="font-size:1.9rem; margin-top:1.3rem" -->
+## Fyrir miðlæga stjórnsýslu Háskóla Íslands 25. nóvember 2025 <!-- .element: style="font-size:1.9rem; margin-top:1.3rem; margin-bottom:1.5rem" -->
+
+<video
+  data-autoplay
+  class="vh70"
+  src="{% endraw %}{{ '/assets/slides/island/video/allt2.mp4' | relative_url }}{% raw %}"
+  muted
+  playsinline
+  loop
+  preload="metadata">
+</video>
+
+<p style="font-size:1.4rem; margin-top:1.5rem;">
+Spurningahöfundur: Matthias Harksen
+</p>
+
 
 ---
 
@@ -510,11 +525,11 @@ permalink: /slides/island/
 
 <div style="display:flex; justify-content:center; gap:3.5rem; align-items:flex-start; margin-top:1.5rem;">
 
-  <!-- Jökulsá á fjöllum -->
+  <!-- Jökulsá á Fjöllum -->
   <div style="text-align:center;">
     <img
       src="{% endraw %}{{ '/assets/slides/island/img/jokulsa.png' | relative_url }}{% raw %}"
-      alt="Jökulsá á fjöllum"
+      alt="Jökulsá á Fjöllum"
       style="
         max-height:40vh;
         width:auto;
@@ -522,7 +537,7 @@ permalink: /slides/island/
         box-shadow:0 8px 24px rgba(0,0,0,0.55);
         margin-bottom:1rem;
       " />
-    <div style="font-size:1.7rem;">Jökulsá á fjöllum</div>
+    <div style="font-size:1.7rem;">Jökulsá á Fjöllum</div>
   </div>
 
   <!-- Sigur Rós -->
@@ -579,41 +594,125 @@ permalink: /slides/island/
 
 </div>
 
+---
 
+## Spurning 22 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Í hvaða dal má finna þennan gosbrunn? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; margin-top:1.5rem;">
+
+  <img
+    src="{% endraw %}{{ '/assets/slides/island/img/samuel.png' | relative_url }}{% raw %}"
+    alt="Gosbrunnur"
+    style="
+      max-height:70vh;
+      width:auto;
+      border-radius:0.6rem;
+      box-shadow:0 10px 30px rgba(0,0,0,0.55);
+    " />
+
+</div>
 
 ---
 
+## Spurning 23 <!-- .element: style="font-size:2.6rem; margin-bottom:0.8rem;" -->
+### Hvað heitir þessi fálkaorðuhafi og í hvaða firði er safnið? <!-- .element: style="font-size:2.0rem; margin-bottom:1.0rem;" -->
+
+<div style="display:flex; justify-content:center; margin-top:1.5rem;">
+
+  <img
+    src="{% endraw %}{{ '/assets/slides/island/img/petra.png' | relative_url }}{% raw %}"
+    alt="Fálkaorðuhafi"
+    style="
+      max-height:70vh;
+      width:auto;
+      border-radius:0.6rem;
+      box-shadow:0 10px 30px rgba(0,0,0,0.55);
+    " />
+
+</div>
+
+
+---
 
 ## Svör við spurningum <!-- .element: style="font-size:2.8rem; margin-bottom:1.5rem;" -->
 
 ---
 
-## Svar við spurningu 1 <!-- .element: style="font-size:2.6rem; margin-bottom:1.0rem;" -->
 
-### Spurning 1: Hvaða bæjarstæði á Vestfjörðum er þetta?? <!-- .element: style="font-size:2.0rem;" -->
+## Svör 1 til 12 <!-- .element: style="font-size:2.8rem; margin-bottom:1.4rem;" -->
 
-<div style="display:flex; justify-content:center; gap:2rem; margin-top:2rem;">
+<div style="display:flex; gap:4rem; font-size:1.9rem; line-height:2.8rem;">
 
-  <img
-    src="{% endraw %}{{ '/assets/slides/island/img/bildudalur.jpg' | relative_url }}{% raw %}"
-    alt="a) Bíldudalur"
-    style="max-height:28vh; border-radius:0.6rem; box-shadow:0 6px 18px rgba(0,0,0,0.5);" />
+  <div style="flex:1; text-align:left;">
 
-  <img
-    src="{% endraw %}{{ '/assets/slides/island/img/patreksfjordur.png' | relative_url }}{% raw %}"
-    alt="b) Patreksfjörður"
-    style="max-height:28vh; border-radius:0.6rem; box-shadow:0 6px 18px rgba(0,0,0,0.5);" />
+  <p class="fragment"><strong>1.</strong> Bíldudalur</p>
+    <p class="fragment"><strong>2.</strong> Glíma</p>
+    <p class="fragment"><strong>3.</strong> Málverkin hanga á Bessastöðum</p>
+    <p class="fragment"><strong>4.</strong> Griðungur (naut), Gammur (örn),  Dreki og Bergrisi</p>
 
-  <img
-    src="{% endraw %}{{ '/assets/slides/island/img/thingeyri.png' | relative_url }}{% raw %}"
-    alt="c) Þingeyri"
-    style="max-height:28vh; border-radius:0.6rem; box-shadow:0 6px 18px rgba(0,0,0,0.5);" />
+  <p class="fragment"><strong>5 a.</strong> „Týnda kynslóðin“ Bjartmar Guðlaugsson</p>
+    <p class="fragment"><strong>5 b.</strong> „Danska lagið“ Bítlavinafélagið</p>
+    <p class="fragment"><strong>5 c.</strong> „Ég fer í fríið“ Þorgeir Ástvaldsson</p>
+
+  </div>
+
+  <div style="flex:1; text-align:left;">
+
+  <p class="fragment"><strong>6.</strong> „Hver á sér fegra föðurland“ Hulda</p>
+    <p class="fragment"><strong>7.</strong> Sigríður í Brattholti</p>
+    <p class="fragment"><strong>8.</strong> Laxness, „Söknuður“ Jóhann Jónsson </p>
+
+  <p class="fragment"><strong>9.</strong> Okjökull</p>
+    <p class="fragment"><strong>10.</strong> Torfbær</p>
+    <p class="fragment"><strong>11.</strong> Danakonungur (Friðrik áttundi 1907 eða Kristján tíundi 1921) </p>
+    <p class="fragment"><strong>12.</strong> Nykur</p>
+
+  </div>
 
 </div>
 
-<p style="margin-top:1.1rem; font-size:1.7rem; text-align:center;">
-  a) Bíldudalur &nbsp;&nbsp;&nbsp; b) Patreksfjörður &nbsp;&nbsp;&nbsp; c) Þingeyri
-</p>
+---
+
+
+## Svör 13 til 23 <!-- .element: style="font-size:2.8rem; margin-bottom:1.4rem;" -->
+
+<div style="display:flex; gap:4rem; font-size:1.9rem; line-height:2.8rem;">
+
+  <div style="flex:1; text-align:left;">
+
+  <p class="fragment"><strong>13.</strong> 12. ágúst 2026</p>
+    <p class="fragment"><strong>14.</strong> Hrafntinnusker</p>
+    <p class="fragment"><strong>15.</strong> Síld</p>
+
+  <p class="fragment">
+      <strong>16.</strong> a) Jón Pál • b) brjósti • c) Jens • d) bitur • e) Kópavogi
+    </p>
+
+  <p class="fragment">
+      <strong>17.</strong>
+      Döggskór málmhlíf • Skjatti kríuungi • Fúkáti geðvondur maður • Bekkjarýja borðtuska
+    </p>
+
+  </div>
+
+  <div style="flex:1; text-align:left;">
+
+  <p class="fragment"><strong>18.</strong> Hraundrangi </p>
+    <p class="fragment"><strong>19.</strong> Skyr</p>
+    <p class="fragment"><strong>20.</strong> Ásbyrgi</p>
+
+  <p class="fragment"><strong>21.</strong> Akureyrarlaug</p>
+    <p class="fragment"><strong>22.</strong> Selárdalur Samúel Jónsson</p>
+
+  <p class="fragment">
+      <strong>23.</strong> Ljósbjörg Petra María Sveinsdóttir; Stöðvarfjörður
+    </p>
+
+  </div>
+
+</div>
+
 
 
 {% endraw %}
