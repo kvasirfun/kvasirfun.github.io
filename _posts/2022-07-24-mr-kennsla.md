@@ -28,6 +28,10 @@ Hægt er að skoða bókina hér:
   <embed src="/assets/files/edlisfraedi-bok.pdf#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="100%">
 </div>
 
+Hér er líka (hluti af) verkegu hefti sem að ég samdi á meðan ég var kennari við Menntaskólann í Reykjavík:
+
+- [Sækja verklegt hefti hér (PDF)](/assets/pdfs/Verkbook.pdf)
+
 ---
 
 ### TeX
