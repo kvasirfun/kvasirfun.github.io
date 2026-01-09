@@ -21,3 +21,5 @@ image:
 - [Skammtafræði 1 (2024)](/assets/pdfs/skammtafraedi1-allt.pdf)
 
 - [Rafsegulfræði 1 (2024)](/assets/pdfs/rafsegulfraedi_heimadaemi.pdf)
+
+- [Dæmatími í Stærðfræðigreiningu 3 (2024)](/assets/pdfs/dt-stae3.pdf)
