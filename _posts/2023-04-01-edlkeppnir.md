@@ -45,13 +45,13 @@ image:
     <th>Lausnir</th>
   </tr>
 
-  {% assign years = (3..25) | reverse %}
+  {% assign years = (3..26) | reverse %}
   {% for i in years %}
     {% assign year = i | plus: 2000 %}
     {% assign fn = i %}{% if i < 10 %}{% assign fn = "0" | append: i %}{% endif %}
 
-    {% assign file = "/assets/pdfs/forkeppnir/undankeppni" | append: fn | append: ".pdf" %}
-    {% assign sol  = "/assets/pdfs/forkeppnir/Lausnir/undankeppni" | append: fn | append: "-lausn.pdf" %}
+  {% assign file = "/assets/pdfs/forkeppnir/undankeppni" | append: fn | append: ".pdf" %}
+  {% assign sol  = "/assets/pdfs/forkeppnir/Lausnir/undankeppni" | append: fn | append: "-lausn.pdf" %}
 
     {% assign exam_exist = site.static_files | where: "path", file | first %}
     {% if exam_exist %}
@@ -76,13 +76,13 @@ Efstu sextán úr forkeppninni fara í fræðilega og verklega lokakeppni. Efstu
     <th>Lausnir</th>
   </tr>
 
-  {% assign years = (3..25) | reverse %}
+  {% assign years = (3..26) | reverse %}
   {% for i in years %}
     {% assign year = i | plus: 2000 %}
     {% assign fn = i %}{% if i < 10 %}{% assign fn = "0" | append: i %}{% endif %}
 
-    {% assign file = "/assets/pdfs/lokakeppnir/fraedileg" | append: fn | append: ".pdf" %}
-    {% assign sol  = "/assets/pdfs/lakakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" %}
+  {% assign file = "/assets/pdfs/lokakeppnir/fraedileg" | append: fn | append: ".pdf" %}
+  {% assign sol  = "/assets/pdfs/lakakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" %}
 
     {% assign exam_exist = site.static_files | where: "path", file | first %}
     {% if exam_exist %}
@@ -123,17 +123,17 @@ Hér má sjá gamlar keppnir ásamt íslenskum þýðingum og lausnum.
   {% assign years = (17..25) | reverse %}
   {% for y in years %}
 
-    {% assign t_is = "/assets/pdfs/eupho/eupho" | append: y | append: "-t-isl.pdf" %}
+  {% assign t_is = "/assets/pdfs/eupho/eupho" | append: y | append: "-t-isl.pdf" %}
     {% assign t_en = "/assets/pdfs/eupho/eupho" | append: y | append: "-t-eng.pdf" %}
     {% assign e_is = "/assets/pdfs/eupho/eupho" | append: y | append: "-e-isl.pdf" %}
     {% assign e_en = "/assets/pdfs/eupho/eupho" | append: y | append: "-e-eng.pdf" %}
     {% assign s_t  = "/assets/pdfs/eupho/lausnir/eupho" | append: y | append: "-t-sol.pdf" %}
     {% assign s_e  = "/assets/pdfs/eupho/lausnir/eupho" | append: y | append: "-e-sol.pdf" %}
 
-    <tr>
+  <tr>
       <td>20{{ y }}</td>
 
-      <td>
+  <td>
         {% assign t_is_ok = site.static_files | where: "path", t_is | first %}
         {% assign t_en_ok = site.static_files | where: "path", t_en | first %}
         {% if t_is_ok %}<a href="{{ t_is | relative_url }}" target="_blank">[IS]</a>{% else %}[IS]{% endif %}
@@ -141,7 +141,7 @@ Hér má sjá gamlar keppnir ásamt íslenskum þýðingum og lausnum.
         {% if t_en_ok %}<a href="{{ t_en | relative_url }}" target="_blank">[EN]</a>{% else %}[EN]{% endif %}
       </td>
 
-      <td>
+  <td>
         {% assign e_is_ok = site.static_files | where: "path", e_is | first %}
         {% assign e_en_ok = site.static_files | where: "path", e_en | first %}
         {% if e_is_ok %}<a href="{{ e_is | relative_url }}" target="_blank">[IS]</a>{% else %}[IS]{% endif %}
@@ -149,7 +149,7 @@ Hér má sjá gamlar keppnir ásamt íslenskum þýðingum og lausnum.
         {% if e_en_ok %}<a href="{{ e_en | relative_url }}" target="_blank">[EN]</a>{% else %}[EN]{% endif %}
       </td>
 
-      <td>
+  <td>
         {% assign s_t_ok = site.static_files | where: "path", s_t | first %}
         {% assign s_e_ok = site.static_files | where: "path", s_e | first %}
         {% if s_t_ok %}<a href="{{ s_t | relative_url }}" target="_blank">[Fræðilegt]</a>{% else %}[Fræðilegt]{% endif %}
