@@ -82,7 +82,7 @@ Efstu sextán úr forkeppninni fara í fræðilega og verklega lokakeppni. Efstu
     {% assign fn = i %}{% if i < 10 %}{% assign fn = "0" | append: i %}{% endif %}
 
   {% assign file = "/assets/pdfs/lokakeppnir/fraedileg" | append: fn | append: ".pdf" %}
-  {% assign sol  = "/assets/pdfs/lakakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" %}
+  {% assign sol  = "/assets/pdfs/lokakeppnir/lausnir/fraedileg" | append: fn | append: "-lausn.pdf" %}
 
     {% assign exam_exist = site.static_files | where: "path", file | first %}
     {% if exam_exist %}
