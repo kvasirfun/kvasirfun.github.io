@@ -16,7 +16,6 @@ image:
 
 ## TeXað sem dæmatímakennari
 
-- [Inngangur að skammtafræði (2025)](/assets/pdfs/inngangur_ad_skammtafraedi.pdf)
 
 - [Skammtafræði 1 (2024)](/assets/pdfs/skammtafraedi1-allt.pdf)
 
